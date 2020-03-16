@@ -22,10 +22,10 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 
 | Module           | Description                    | Status                                                               |
 | ---------------- |--------------------------------| -------------------------------------------------------------------- |
-| [Forum](https://github.com/EasyAbp/Forum) | An abp forum application module. | ![NotStarted](https://img.shields.io/badge/-Not%20started-lightgrey) |
-| [GiftCard](https://github.com/EasyAbp/GiftCard) | An abp application module where you can create gift cards and your app user can use them to exchange something. | ![NotStarted](https://img.shields.io/badge/-Not%20started-lightgrey) |
+| [Forum](https://github.com/EasyAbp/Forum) | An abp forum application module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
+| [GiftCard](https://github.com/EasyAbp/GiftCard) | An abp application module where you can create gift cards and your app user can use them to exchange something. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [PrivateMessaging](https://github.com/EasyAbp/PrivateMessaging) | An abp application module that allows users to send private messages to each other. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
-| [InstantMessaging](https://github.com/EasyAbp/InstantMessaging) | An abp application module that allows users to chat with each other instantly. | ![NotStarted](https://img.shields.io/badge/-Not%20started-lightgrey) |
+| [InstantMessaging](https://github.com/EasyAbp/InstantMessaging) | An abp application module that allows users to chat with each other instantly. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [UniApp](https://github.com/EasyAbp/UniApp) | 实现uni-app的应用版本管理、整包更新、热更新、差量热更新等功能的Abp应用模块 | ![Coming](https://img.shields.io/badge/-Coming-orange) |
 
 ### Framework Modules
@@ -33,8 +33,8 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 | Module           | Description                    | Status                                                               |
 | ---------------- |--------------------------------| -------------------------------------------------------------------- |
 | [Abp.RelatedDtoLoader](https://github.com/EasyAbp/Abp.RelatedDtoLoader) | An Abp module to help you automatically load related DTO (like ProductDto in OrderDto) under DDD. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
-| [Abp.Workflow](https://github.com/EasyAbp/Abp.Workflow) | Abp workflow module. | ![NotStarted](https://img.shields.io/badge/-Not%20started-lightgrey) |
-| [Abp.SignalR](https://github.com/EasyAbp/Abp.SignalR) | Abp SignalR module. | ![NotStarted](https://img.shields.io/badge/-Not%20started-lightgrey) |
+| [Abp.Workflow](https://github.com/EasyAbp/Abp.Workflow) | Abp workflow module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
+| [Abp.SignalR](https://github.com/EasyAbp/Abp.SignalR) | Abp SignalR module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.EventBus.CAP](https://github.com/EasyAbp/Abp.EventBus.CAP) | This is a repository integrated CAP with ABP EventBus. | ![Cancelled](https://img.shields.io/badge/-Cancelled-red) |
 | [Abp.SettingUi](https://github.com/EasyAbp/Abp.SettingUi) | An ABP module used to manage ABP settings. | ![Cancelled](https://img.shields.io/badge/-Cancelled-red) |
 | [Abp.WeChat](https://github.com/EasyAbp/Abp.WeChat) | 专门为 ABP vNext 封装的微信模块，包括微信公众号和微信支付相关接口 | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
