@@ -20,7 +20,7 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 
 ### Application Modules
 
-| Module           | Description                    | Status                                                               |
+| Name             | Description                    | Status                                                               |
 | ---------------- |--------------------------------| -------------------------------------------------------------------- |
 | [Forum](https://github.com/EasyAbp/Forum) | An abp forum application module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [GiftCard](https://github.com/EasyAbp/GiftCard) | An abp application module where you can create gift cards and your app user can use them to exchange something. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
@@ -31,7 +31,7 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 
 ### Framework Modules
 
-| Module           | Description                    | Status                                                               |
+| Name             | Description                    | Status                                                               |
 | ---------------- |--------------------------------| -------------------------------------------------------------------- |
 | [Abp.RelatedDtoLoader](https://github.com/EasyAbp/Abp.RelatedDtoLoader) | An Abp module that help you automatically load related DTO (like ProductDto in OrderDto) under DDD. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
 | [Abp.UsingLimiter](https://github.com/EasyAbp/Abp.UsingLimiter) | An Abp module helps you control how often your service is used. | ![Coming](https://img.shields.io/badge/-Coming-blue) |
@@ -47,7 +47,9 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 
 ### UI Theme Modules
 
-Todo.
+| UI Framework | Name                    | Description                              | Status           |
+| ------------ |-------------------------| ---------------------------------------- | ---------------- |
+| MVC          | [Easy](https://github.com/EasyAbp/Abp.AspNetCore.Mvc.UI.Theme.Easy) | EasyAbp's first Abp MVC UI theme module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 
 ## Module Development Specification
 
