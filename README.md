@@ -26,7 +26,7 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 | [GiftCard](https://github.com/EasyAbp/GiftCard) | An abp application module where you can create gift cards and your app user can use them to exchange something. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [PrivateMessaging](https://github.com/EasyAbp/PrivateMessaging) | An abp application module that allows users to send private messages to each other. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
 | [InstantMessaging](https://github.com/EasyAbp/InstantMessaging) | An abp application module that allows users to chat with each other instantly. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
-| [UniApp](https://github.com/EasyAbp/UniApp) | 实现uni-app的应用版本管理、整包更新、热更新、差量热更新等功能的Abp应用模块 | ![Coming](https://img.shields.io/badge/-Coming-orange) |
+| [UniApp](https://github.com/EasyAbp/UniApp) | 实现uni-app的应用版本管理、整包更新、热更新、差量热更新等功能的Abp应用模块 | ![Coming](https://img.shields.io/badge/-Coming-blue) |
 
 ### Framework Modules
 
