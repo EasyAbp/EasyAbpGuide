@@ -33,7 +33,7 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 | Module           | Description                    | Status                                                               |
 | ---------------- |--------------------------------| -------------------------------------------------------------------- |
 | [Abp.RelatedDtoLoader](https://github.com/EasyAbp/Abp.RelatedDtoLoader) | An Abp module that help you automatically load related DTO (like ProductDto in OrderDto) under DDD. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
-| [Abp.UsingLimiter](https://github.com/EasyAbp/Abp.UsingLimiter) | An Abp module helps you control how often your service is used. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
+| [Abp.UsingLimiter](https://github.com/EasyAbp/Abp.UsingLimiter) | An Abp module helps you control how often your service is used. | !![Coming](https://img.shields.io/badge/-Coming-blue) |
 | [Abp.Workflow](https://github.com/EasyAbp/Abp.Workflow) | Abp workflow module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.SignalR](https://github.com/EasyAbp/Abp.SignalR) | Abp SignalR module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.EventBus.CAP](https://github.com/EasyAbp/Abp.EventBus.CAP) | This is a repository integrated CAP with ABP EventBus. | ![Cancelled](https://img.shields.io/badge/-Cancelled-red) |
