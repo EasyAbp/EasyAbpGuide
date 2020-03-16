@@ -24,6 +24,7 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 | ---------------- |--------------------------------| -------------------------------------------------------------------- |
 | [Forum](https://github.com/EasyAbp/Forum) | An abp forum application module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [GiftCard](https://github.com/EasyAbp/GiftCard) | An abp application module where you can create gift cards and your app user can use them to exchange something. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
+| [FileUpload](https://github.com/EasyAbp/FileUpload) | An abp application module that allows users to upload files depending on EasyAbp.Abp.StorageService. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [PrivateMessaging](https://github.com/EasyAbp/PrivateMessaging) | An abp application module that allows users to send private messages to each other. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
 | [InstantMessaging](https://github.com/EasyAbp/InstantMessaging) | An abp application module that allows users to chat with each other instantly. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [UniApp](https://github.com/EasyAbp/UniApp) | 实现uni-app的应用版本管理、整包更新、热更新、差量热更新等功能的Abp应用模块 | ![Coming](https://img.shields.io/badge/-Coming-blue) |
@@ -34,6 +35,7 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 | ---------------- |--------------------------------| -------------------------------------------------------------------- |
 | [Abp.RelatedDtoLoader](https://github.com/EasyAbp/Abp.RelatedDtoLoader) | An Abp module that help you automatically load related DTO (like ProductDto in OrderDto) under DDD. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
 | [Abp.UsingLimiter](https://github.com/EasyAbp/Abp.UsingLimiter) | An Abp module helps you control how often your service is used. | ![Coming](https://img.shields.io/badge/-Coming-blue) |
+| [Abp.StorageService](https://github.com/EasyAbp/Abp.StorageService) | An ABP module to realize storage, which helps you upload to the storage and manage the stored data. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.Elk](https://github.com/EasyAbp/Abp.Elk) | Abp ELK (Elasticsearch + Logstash + Kibana) module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.Workflow](https://github.com/EasyAbp/Abp.Workflow) | Abp workflow module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.SignalR](https://github.com/EasyAbp/Abp.SignalR) | Abp SignalR module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
