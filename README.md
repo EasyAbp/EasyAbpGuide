@@ -8,7 +8,7 @@ Introduce EasyAbp organization, list our modules, provide the specification for 
 
 ## AbpHelper
 
-AbpHelper is a tool to help you with developing Abp vNext applications. 
+AbpHelper is a tool that help you with developing Abp vNext applications. 
 
 * We provide [AbpHelper.GUI](https://github.com/EasyAbp/AbpHelper.GUI) to help you use it more visually.
 
