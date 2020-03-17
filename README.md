@@ -53,4 +53,4 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 
 ## How to Contribute?
 
-If you want to contribute codes or a new module for EasyAbp organization, please read the [Module Development Specification](Module-Development-Specification.md) document.
+If you want to contribute codes or a new module to EasyAbp organization, please read the [Module Development Specification](Module-Development-Specification.md) document.
