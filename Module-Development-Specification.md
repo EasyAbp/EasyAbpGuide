@@ -10,7 +10,7 @@ Please read through the ABP official document: [Module Development](https://docs
 
 We have some standards based on the official document: [Module Development Best Practices & Conventions](https://docs.abp.io/en/abp/latest/Best-Practices/Index).
 
-### To Be Abstract
+### Abstraction
 
 Todo.
 
