@@ -22,6 +22,11 @@ Todo.
 
 Todo.
 
+### Always Virtual Methods
+
+* Don't use private methods, change them to protected methods.
+* Make all your methods virtual.
+
 ### Multi-tenancy
 
 Todo.
