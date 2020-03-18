@@ -26,8 +26,10 @@ Todo.
 
 According to: https://github.com/abpframework/abp/issues/3166
 
-* Make all public/protected methods virtual (including entities, domain services, application services, page models, view components...) to make them easily overridable.
-* Make all private methods of domain & application services "propected virtual" to also be able to override them.
+> * Make all public/protected methods virtual (including entities, domain services, application services, page models, view components...) to make them easily overridable.
+> * Make all private methods of domain & application services "propected virtual" to also be able to override them.
+
+Generally, please virtualize the above methods, but you should also think about maintainability and consider to protect some methods if necessary.
 
 ### Multi-tenancy
 
