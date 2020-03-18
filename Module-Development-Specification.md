@@ -24,8 +24,10 @@ Todo.
 
 ### Always Virtual Methods
 
-* Don't use private methods, change them to protected methods.
-* Make all your methods virtual.
+According to: https://github.com/abpframework/abp/issues/3166
+
+* Make all public/protected methods virtual (including entities, domain services, application services, page models, view components...) to make them easily overridable.
+* Make all private methods of domain & application services "propected virtual" to also be able to override them.
 
 ### Multi-tenancy
 
