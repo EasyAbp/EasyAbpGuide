@@ -22,7 +22,7 @@ Todo.
 
 Todo.
 
-### Always Virtual Methods
+### More Virtual Methods
 
 According to: https://github.com/abpframework/abp/issues/3166
 
