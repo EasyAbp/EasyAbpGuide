@@ -40,8 +40,8 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 | [Abp.Elk](https://github.com/EasyAbp/Abp.Elk) | Abp ELK (Elasticsearch + Logstash + Kibana) module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.Workflow](https://github.com/EasyAbp/Abp.Workflow) | Abp workflow module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.SignalR](https://github.com/EasyAbp/Abp.SignalR) | Abp SignalR module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
-| [Abp.EventBus.CAP](https://github.com/EasyAbp/Abp.EventBus.CAP) | This is a repository integrated CAP with ABP EventBus. | ![Cancelled](https://img.shields.io/badge/-Cancelled-red) |
-| [Abp.SettingUi](https://github.com/EasyAbp/Abp.SettingUi) | An ABP module used to manage ABP settings. | ![Cancelled](https://img.shields.io/badge/-Cancelled-red) |
+| [Abp.EventBus.CAP](https://github.com/EasyAbp/Abp.EventBus.CAP) | This is a repository integrated CAP with ABP EventBus. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
+| [Abp.SettingUi](https://github.com/EasyAbp/Abp.SettingUi) | An ABP module used to manage ABP settings. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
 | [Abp.WeChat](https://github.com/EasyAbp/Abp.WeChat) | 专门为 ABP vNext 封装的微信模块，包括微信公众号和微信支付相关接口 | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
 | [Abp.TencentCloud](https://github.com/EasyAbp/Abp.TencentCloud) | 专门为 ABP vNext 封装的腾讯云 SDK 模块 | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
 | [Abp.Aliyun](https://github.com/EasyAbp/Abp.Aliyun) | 专门为 ABP vNext 封装的阿里云 SDK 模块 | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
