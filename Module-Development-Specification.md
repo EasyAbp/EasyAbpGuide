@@ -67,7 +67,7 @@ Todo.
 
 Todo.
 
-### Publish New Modules
+### Publishing New Modules
 
 Todo.
 
