@@ -10,7 +10,7 @@
 
 ## Domain Project
 
-* All the repository public methods should have `CancellationToken cancellationToken = default` param.
+* All the repository query methods should have `CancellationToken cancellationToken = default` param.
 * If the Todo entity has relationships, all the custom repository query methods should have `bool includeDetails` param, the default value for get list methods is `false` and for get/find methods is `false`.
 
 ## EntityFrameworkCore Project
