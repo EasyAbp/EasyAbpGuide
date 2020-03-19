@@ -26,6 +26,7 @@ This document is based on ABP official [Module Development Best Practices & Conv
 
 ## Web Project
 
+* Todo menu item should be a sub item of administration menu item by default.
 * Use application services instead of domain services or repositories.
 * In Pages folder, the Todo folders should in the TodoManagement (module name) folder.
 * List pages should have the `Title`, `BreadCrumb` and `MenuItemName` configurations in PageLayout.Content.
