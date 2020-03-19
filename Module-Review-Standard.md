@@ -1,8 +1,16 @@
 # Module Review Standard
 
+## Application Project
+
+* TodoAppService should implement ITodoAppService.
+
+## Application.Contracts Project
+
+* ITodoAppService interface should contains all the public methods.
+
 ## Web Project
 
-* In Pages folder, the entity name folders should in the module name folder.
+* In Pages folder, the Todo folders should in the TodoManagement (module name) folder.
 * List pages should have the `Title`, `BreadCrumb` and `MenuItemName` configurations in PageLayout.Content.
 * List pages should have actions permission check.
 * Localizations of Modal pages should work.
