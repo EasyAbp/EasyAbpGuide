@@ -31,4 +31,3 @@ This document is based on ABP official [Module Development Best Practices & Conv
 * List pages should have the `Title`, `BreadCrumb` and `MenuItemName` configurations in PageLayout.Content.
 * List pages should have actions permission check.
 * Sub list pages should show the parent entity identification. For example, using `PageLayout.Content.Title = "TodoItem (TodoName1)";` and `<abp-card-title>TodoItem (TodoName1)</abp-card-title>`
-```
