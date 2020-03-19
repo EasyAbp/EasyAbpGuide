@@ -1,9 +1,15 @@
 # Module Review Standard
 
+This document is based on ABP official [Module Development Best Practices & Conventions](https://docs.abp.io/en/abp/latest/Best-Practices/Index). You can review an ABP module design according to this document.
+
+## Common
+
+* Repositories outside of current module should not be used.
+* Handle more exceptions so people can replace them for easier customization.
+
 ## Application Project
 
 * TodoAppService should implement ITodoAppService.
-* Repositories outside of current module should not be used.
 
 ## Application.Contracts Project
 
@@ -11,7 +17,6 @@
 
 ## Domain Project
 
-* Repositories outside of current module should not be used.
 * All the repository query methods should have `CancellationToken cancellationToken = default` param.
 * If the Todo entity has relationships, all the custom repository query methods should have `bool includeDetails` param, the default value for get list methods is `false` and for get/find methods is `false`.
 
