@@ -13,6 +13,10 @@
 * All the repository public methods should have `CancellationToken cancellationToken = default` param.
 * If the Todo entity has relationships, all the custom repository query methods should have `bool includeDetails` param, the default value for get list methods is `false` and for get/find methods is `false`.
 
+## EntityFrameworkCore Project
+
+* No table shared with ABP framework or ABP official modules.
+
 ## Web Project
 
 * In Pages folder, the Todo folders should in the TodoManagement (module name) folder.
