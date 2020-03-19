@@ -37,6 +37,8 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 | [Abp.RelatedDtoLoader](https://github.com/EasyAbp/Abp.RelatedDtoLoader) | An Abp module that help you automatically load related DTO (like ProductDto in OrderDto) under DDD. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
 | [Abp.UsingLimiter](https://github.com/EasyAbp/Abp.UsingLimiter) | An Abp module helps you control how often your service is used. | ![Coming](https://img.shields.io/badge/-Coming-blue) |
 | [Abp.StorageService](https://github.com/EasyAbp/Abp.StorageService) | An ABP module to realize storage, which helps you upload to the storage and manage the stored data. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
+| [Abp.Captcha](https://github.com/EasyAbp/Abp.Captcha) | An Abp module to generate CAPTCHAs and provide verification for app users through email, SMS or more. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
+| [Abp.Sms](https://github.com/EasyAbp/Abp.Sms) | Abp SMS module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.Elk](https://github.com/EasyAbp/Abp.Elk) | Abp ELK (Elasticsearch + Logstash + Kibana) module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.Workflow](https://github.com/EasyAbp/Abp.Workflow) | Abp workflow module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.SignalR](https://github.com/EasyAbp/Abp.SignalR) | Abp SignalR module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
