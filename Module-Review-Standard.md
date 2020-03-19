@@ -8,6 +8,10 @@
 
 * ITodoAppService interface should contains all the public methods.
 
+## Domain Project
+
+* All the repository public methods should have cancellationToken param.
+
 ## Web Project
 
 * In Pages folder, the Todo folders should in the TodoManagement (module name) folder.
