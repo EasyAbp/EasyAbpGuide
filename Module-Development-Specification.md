@@ -16,7 +16,9 @@ Todo.
 
 ### Module Naming
 
-Todo.
+Example of application module solution name: `EasyAbp.TodoManagement`.
+
+Example of framework module solution name: `EasyAbp.Abp.Todo` (including the prefix `Abp.`).
 
 ### Solution Structure
 
