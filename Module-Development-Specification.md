@@ -46,7 +46,7 @@ Todo.
 
 ### Using IClock
 
-Inject and use `IClock.Now` instead of `DateTime.Now` or `DateTime.UtcNow` in all your code.
+Use `IClock.Now` instead of `DateTime.Now` or `DateTime.UtcNow` in all your code.
 
 ### Using ConfigureAwait.Fody
 
