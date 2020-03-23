@@ -12,7 +12,9 @@ We have some standards based on the official document: [Module Development Best 
 
 ### Abstraction
 
-Todo.
+Try to design an abstract module and add provide more implementations.
+
+> For example: `EasyAbp.Abp.Sms`, `EasyAbp.Abp.Sms.Aws`, `EasyAbp.Abp.Sms.Azure`
 
 ### Module Naming
 
@@ -35,7 +37,8 @@ Generally, please virtualize the above methods, but you should also think about 
 
 ### Multi-tenancy
 
-Todo.
+* Let your entities implement `IMultiTenant` if your module can be designed to support multi-tenancy.
+* Make sure the module is hidden from tenant users in the menu when it is host only.
 
 ### User Data
 
@@ -43,7 +46,7 @@ Todo.
 
 ### Using IClock
 
-Todo.
+Inject and use `IClock.Now` instead of `DateTime.Now` or `DateTime.UtcNow` in all your code.
 
 ### Using ConfigureAwait.Fody
 
