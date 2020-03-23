@@ -12,7 +12,7 @@ We have some standards based on the official document: [Module Development Best 
 
 ### Abstraction
 
-Try to design an abstract module and add provide more implementations.
+Try to design an abstract module and provide more implementations.
 
 > For example: `EasyAbp.Abp.Sms`, `EasyAbp.Abp.Sms.Aws`, `EasyAbp.Abp.Sms.Azure`
 
