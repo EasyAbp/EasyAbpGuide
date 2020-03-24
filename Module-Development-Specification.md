@@ -13,7 +13,6 @@ We have some standards based on the official document: [Module Development Best 
 ### Abstraction
 
 Try to design an abstract module and provide more implementations.
-
 * Good practice: `EasyAbp.Abp.Sms`, `EasyAbp.Abp.Sms.Aws`, `EasyAbp.Abp.Sms.Azure`.
 * Bad practice: `EasyAbp.Abp.AzureSms`.
 
@@ -51,7 +50,7 @@ Use `IClock.Now` instead of `DateTime.Now` or `DateTime.UtcNow` in all your code
 
 ### Using ConfigureAwait.Fody
 
-Please refer to the [common.props](https://github.com/EasyAbp/PrivateMessaging/blob/master/common.props) and the [FodyWeavers.xml](https://github.com/EasyAbp/PrivateMessaging/blob/master/src/EasyAbp.PrivateMessaging.Domain/FodyWeavers.xml) demos.
+Refer to the [common.props](https://github.com/EasyAbp/PrivateMessaging/blob/master/common.props) and the [FodyWeavers.xml](https://github.com/EasyAbp/PrivateMessaging/blob/master/src/EasyAbp.PrivateMessaging.Domain/FodyWeavers.xml) demos.
 
 * Add `Fody` and `ConfigureAwait.Fody` references to module projects.
 * Set `<ConfigureAwait ContinueOnCapturedContext="false" />`.
@@ -62,12 +61,13 @@ Todo.
 
 ### common.props
 
+Follow the steps below:
 1. Copy the [common.props](https://github.com/EasyAbp/PrivateMessaging/blob/master/common.props) demo to your module.
 1. Edit `Version`, `Description`, `PackageTags` and `PackageLicenseExpression`. (Don't follow the ABP framework's version.)
 
 ### README.md
 
-Please refer to the [README.md](https://github.com/EasyAbp/PrivateMessaging/blob/master/README.md) demo. You can customize the structure, but in fact similar formats are more readable.
+Refer to the [README.md](https://github.com/EasyAbp/PrivateMessaging/blob/master/README.md) demo. You can customize the structure, but in fact similar formats are more readable.
 
 ### Packaging and Publishing
 
