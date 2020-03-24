@@ -14,7 +14,8 @@ We have some standards based on the official document: [Module Development Best 
 
 Try to design an abstract module and provide more implementations.
 
-> For example: `EasyAbp.Abp.Sms`, `EasyAbp.Abp.Sms.Aws`, `EasyAbp.Abp.Sms.Azure`
+* Good practice: `EasyAbp.Abp.Sms`, `EasyAbp.Abp.Sms.Aws`, `EasyAbp.Abp.Sms.Azure`.
+* Bad practice: `EasyAbp.Abp.AzureSms`.
 
 ### Module Naming
 
@@ -50,9 +51,10 @@ Use `IClock.Now` instead of `DateTime.Now` or `DateTime.UtcNow` in all your code
 
 ### Using ConfigureAwait.Fody
 
+Please refer to the [common.props](https://github.com/EasyAbp/PrivateMessaging/blob/master/common.props) and the [FodyWeavers.xml](https://github.com/EasyAbp/PrivateMessaging/blob/master/src/EasyAbp.PrivateMessaging.Domain/FodyWeavers.xml) demos.
+
 * Add `Fody` and `ConfigureAwait.Fody` references to module projects.
 * Set `<ConfigureAwait ContinueOnCapturedContext="false" />`.
-> Refer to the [common.props](https://github.com/EasyAbp/PrivateMessaging/blob/master/common.props) and the [FodyWeavers.xml](https://github.com/EasyAbp/PrivateMessaging/blob/master/src/EasyAbp.PrivateMessaging.Domain/FodyWeavers.xml) demos.
 
 ### Testing
 
