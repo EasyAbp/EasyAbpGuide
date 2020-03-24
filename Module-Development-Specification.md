@@ -51,7 +51,7 @@ Use `IClock.Now` instead of `DateTime.Now` or `DateTime.UtcNow` in all your code
 ### Using ConfigureAwait.Fody
 
 * Add `Fody` and `ConfigureAwait.Fody` references to module projects.
-* set `<ConfigureAwait ContinueOnCapturedContext="false" />`.
+* Set `<ConfigureAwait ContinueOnCapturedContext="false" />`.
 > Refer to the [common.props](https://github.com/EasyAbp/PrivateMessaging/blob/master/common.props) and the [FodyWeavers.xml](https://github.com/EasyAbp/PrivateMessaging/blob/master/src/EasyAbp.PrivateMessaging.Domain/FodyWeavers.xml) demos.
 
 ### Testing
