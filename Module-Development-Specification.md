@@ -28,17 +28,17 @@ Todo.
 
 ### More Virtual Methods
 
-According to: https://github.com/abpframework/abp/issues/3166
+According to https://github.com/abpframework/abp/issues/3166
 
 > * Make all public/protected methods virtual (including entities, domain services, application services, page models, view components...) to make them easily overridable.
-> * Make all private methods of domain & application services "propected virtual" to also be able to override them.
+> * Make all private methods of domain & application services "protected virtual" to also be able to override them.
 
-Generally, please virtualize the above methods, but you should also think about maintainability and consider to protect some methods if necessary.
+Generally, please virtualize the above methods, but you should also think about maintainability and consider protecting some methods if necessary.
 
 ### Multi-tenancy
 
 * Let your entities implement `IMultiTenant` if your module can be designed to support multi-tenancy.
-* Make sure the module is hidden from tenant users in the menu when it is host only.
+* Make sure the module is hidden from tenant users on the menu when it is host only.
 
 ### User Data
 
@@ -50,7 +50,9 @@ Use `IClock.Now` instead of `DateTime.Now` or `DateTime.UtcNow` in all your code
 
 ### Using ConfigureAwait.Fody
 
-Todo.
+* Add `Fody` and `ConfigureAwait.Fody` references to module projects.
+* set `<ConfigureAwait ContinueOnCapturedContext="false" />`.
+> Refer to the [common.props](https://github.com/EasyAbp/PrivateMessaging/blob/master/common.props) and the [FodyWeavers.xml](https://github.com/EasyAbp/PrivateMessaging/blob/master/src/EasyAbp.PrivateMessaging.Domain/FodyWeavers.xml) demos.
 
 ### Testing
 
@@ -58,11 +60,12 @@ Todo.
 
 ### common.props
 
-Todo.
+1. Copy the [common.props](https://github.com/EasyAbp/PrivateMessaging/blob/master/common.props) demo to your module.
+1. Edit `Version`, `Description`, `PackageTags` and `PackageLicenseExpression`. (Don't follow the ABP framework's version.)
 
 ### README.md
 
-Todo.
+Please refer to the [README.md](https://github.com/EasyAbp/PrivateMessaging/blob/master/README.md) demo. You can customize the structure, but in fact similar formats are more readable.
 
 ### Packaging and Publishing
 
