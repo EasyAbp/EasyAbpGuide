@@ -55,6 +55,11 @@ Refer to the [common.props](https://github.com/EasyAbp/PrivateMessaging/blob/mas
 * Add `Fody` and `ConfigureAwait.Fody` references to module projects.
 * Set `<ConfigureAwait ContinueOnCapturedContext="false" />`.
 
+### Auto API Controllers
+
+* If you use [Auto API Controllers](https://docs.abp.io/en/abp/latest/API/Auto-API-Controllers), do not forget to explain [how to enable it](https://docs.abp.io/en/abp/latest/API/Auto-API-Controllers#configuration) in README.md.
+* You can also create controllers manually.
+
 ### Testing
 
 Todo.
