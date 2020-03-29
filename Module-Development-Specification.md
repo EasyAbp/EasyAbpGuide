@@ -40,6 +40,10 @@ Generally, please virtualize the above methods, but you should also think about 
 * Let your entities implement `IMultiTenant` if your module can be designed to support multi-tenancy.
 * Make sure the module is hidden from tenant users on the menu when it is host only.
 
+### Menu Items
+
+Todo.
+
 ### User Data
 
 Todo.
