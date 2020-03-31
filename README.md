@@ -23,11 +23,11 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 | Name             | Description                    | Status                                                               |
 | ---------------- |--------------------------------| -------------------------------------------------------------------- |
 | [Forum](https://github.com/EasyAbp/Forum) | An abp forum application module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
-| [GiftCard](https://github.com/EasyAbp/GiftCard) | An abp application module where you can create gift cards and your app user can use them to exchange something. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
+| [GiftCard](https://github.com/EasyAbp/GiftCard) | An abp application module where you can create gift cards and your app user can use them to exchange something. | ![Coming](https://img.shields.io/badge/-Coming-blue) |
 | [FileUpload](https://github.com/EasyAbp/FileUpload) | An abp application module that allows users to upload files depending on EasyAbp.Abp.StorageService. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [PrivateMessaging](https://github.com/EasyAbp/PrivateMessaging) | An abp application module that allows users to send private messages to each other. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
 | [InstantMessaging](https://github.com/EasyAbp/InstantMessaging) | An abp application module that allows users to chat with each other instantly. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
-| [SeedingTool](https://github.com/EasyAbp/SeedingTool) | An abp application module to help host/tenants re seed the initial data with background job in launched applications. | ![Coming](https://img.shields.io/badge/-Coming-blue) |
+| [SeedingTool](https://github.com/EasyAbp/SeedingTool) | An abp application module to help host/tenants re seed the initial data with background job in launched applications. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [CacheManagement](https://github.com/EasyAbp/CacheManagement) | An abp application module helps administrators to manage the app cache data. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
 | [UniappManagement](https://github.com/EasyAbp/UniappManagement) | 实现uni-app的应用版本管理、整包更新、热更新、差量热更新等功能的Abp应用模块 | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
 
