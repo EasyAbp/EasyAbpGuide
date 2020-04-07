@@ -24,7 +24,7 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 | ---------------- |--------------------------------| -------------------------------------------------------------------- |
 | [Forum](https://github.com/EasyAbp/Forum) | An abp forum application module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [GiftCardManagement](https://github.com/EasyAbp/GiftCardManagement) | An abp application module where you can create gift cards and your app user can use them to exchange something. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
-| [FileUpload](https://github.com/EasyAbp/FileUpload) | An abp application module that allows users to upload files depending on EasyAbp.Abp.StorageService. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
+| [FileUpload](https://github.com/EasyAbp/FileUpload) | An abp application module that allows users to upload files based on EasyAbp.Abp.StorageService. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [PrivateMessaging](https://github.com/EasyAbp/PrivateMessaging) | An abp application module that allows users to send private messages to each other. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
 | [InstantMessaging](https://github.com/EasyAbp/InstantMessaging) | An abp application module that allows users to chat with each other instantly. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [SeedingTool](https://github.com/EasyAbp/SeedingTool) | An abp application module to help host/tenants re seed the initial data with background job in launched applications. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
