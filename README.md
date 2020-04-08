@@ -36,7 +36,7 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 | Name             | Description                    | Status                                                               |
 | ---------------- |--------------------------------| -------------------------------------------------------------------- |
 | [Abp.RelatedDtoLoader](https://github.com/EasyAbp/Abp.RelatedDtoLoader) | An Abp module that help you automatically load related DTO (like ProductDto in OrderDto) under DDD. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
-| [Abp.UsingLimiter](https://github.com/EasyAbp/Abp.UsingLimiter) | An Abp module helps you control how often your service is used. | ![Coming](https://img.shields.io/badge/-Coming-blue) |
+| [Abp.AspNetCoreRateLimit](https://github.com/EasyAbp/Abp.AspNetCoreRateLimit) | An Abp module helps you control how often your service is used. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
 | [Abp.StorageService](https://github.com/EasyAbp/Abp.StorageService) | An ABP module to realize storage, which helps you upload to the storage and manage the stored data. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.Captcha](https://github.com/EasyAbp/Abp.Captcha) | An Abp module to generate CAPTCHAs and provide verification for app users through email, SMS or more. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.Sms](https://github.com/EasyAbp/Abp.Sms) | Abp SMS module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
