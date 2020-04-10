@@ -28,10 +28,10 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 | [FileUpload](https://github.com/EasyAbp/FileUpload) | An abp application module that allows users to upload files based on EasyAbp.Abp.StorageService. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [PrivateMessaging](https://github.com/EasyAbp/PrivateMessaging) | An abp application module that allows users to send private messages to each other. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
 | [InstantMessaging](https://github.com/EasyAbp/InstantMessaging) | An abp application module that allows users to chat with each other instantly. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
+| [Oa.Workflow](https://github.com/EasyAbp/Oa.Workflow) | An abp application module you can use to create OA workflows with customized rules and data. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [SeedingTool](https://github.com/EasyAbp/SeedingTool) | An abp application module to help host/tenants re seed the initial data with background job in launched applications. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [CacheManagement](https://github.com/EasyAbp/CacheManagement) | An abp application module helps administrators to manage the app cache data. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
 | [UniappManagement](https://github.com/EasyAbp/UniappManagement) | 实现uni-app的应用版本管理、整包更新、热更新、差量热更新等功能的Abp应用模块 | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
-| [Oa.Workflow](https://github.com/EasyAbp/Oa.Workflow) | An abp application module you can use to create OA workflows with customized rules and data. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 
 ### Framework Modules
 
