@@ -24,6 +24,7 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 | ---------------- |--------------------------------| -------------------------------------------------------------------- |
 | [Forum](https://github.com/EasyAbp/Forum) | An abp forum application module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Cms](https://github.com/EasyAbp/Cms) | An abp CMS application module. | ![Coming](https://img.shields.io/badge/-Coming-blue) |
+| [Shop](https://github.com/EasyAbp/Shop) | An abp shop application module group that including product module, order module and payment module to provide basic shop service. | ![Coming](https://img.shields.io/badge/-Coming-blue) |
 | [GiftCardManagement](https://github.com/EasyAbp/GiftCardManagement) | An abp application module where you can create gift cards and your app user can use them to exchange something. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
 | [FileUpload](https://github.com/EasyAbp/FileUpload) | An abp application module that allows users to upload files based on EasyAbp.Abp.StorageService. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [PrivateMessaging](https://github.com/EasyAbp/PrivateMessaging) | An abp application module that allows users to send private messages to each other. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
