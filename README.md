@@ -4,7 +4,7 @@ An open source organization to enhance your ABP project development efficiency.
 
 ## Abp vNext Framework
 
-[ABP vNext](https://github.com/abpframework/abp) is an open source web application framework for [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core). All of EasyAbp organization's work is for ABP vNext framework.
+[ABP vNext](https://github.com/abpframework/abp) is an open-source web application framework based on [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core). All of EasyAbp organization's work is for ABP vNext framework.
 
 ## AbpHelper
 
