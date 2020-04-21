@@ -44,7 +44,7 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 | [Abp.Cqrs](https://github.com/EasyAbp/Abp.Cqrs) | An Abp module to implement CQRS. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.Captcha](https://github.com/EasyAbp/Abp.Captcha) | An Abp module to generate CAPTCHAs and provide verification for app users through email, SMS or more. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.Sms](https://github.com/EasyAbp/Abp.Sms) | Abp SMS module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
-| [Abp.TagHelperPlus](https://github.com/EasyAbp/Abp.TagHelperPlus) | An Abp MVC UI tag-helper enhancement module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
+| [Abp.TagHelperPlus](https://github.com/EasyAbp/Abp.TagHelperPlus) | An Abp MVC UI tag-helper enhancement module to provide ABP built in tag helpers, rich text editor and more. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.Elasticsearch](https://github.com/EasyAbp/Abp.Elasticsearch) | Abp Elasticsearch module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.WorkflowCore](https://github.com/EasyAbp/Abp.WorkflowCore) | Abp Workflow Core module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.SignalR](https://github.com/EasyAbp/Abp.SignalR) | Abp SignalR module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
