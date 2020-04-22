@@ -21,6 +21,7 @@ Try to design an abstract module and provide more implementations.
 Example of module solution name:
 * Application module: `EasyAbp.TodoManagement`.
 * Framework module: `EasyAbp.Abp.Todo` (including the prefix `Abp.`).
+> The better name of `XxxxxxModule` class for framework module is `AbpXxxxxxModule`.
 
 ### Solution Structure
 
