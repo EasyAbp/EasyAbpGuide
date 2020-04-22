@@ -32,6 +32,8 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 
 3. Ensure the `<abp-script ... />` and `<abp-style ... />` in **index.cshtml** have the correct path, for example: `<abp-script src="/Pages/MyModuleName/MyEntities/MyEntity/index.js" />`
 
+4. Ensure the url of every menu item in **MyModuleNameMenuContributor.cs** is correct.
+
 ## Step 4: Configure common.prop
 
 Modify the **common.prop** file with reference to: https://github.com/EasyAbp/PrivateMessaging/blob/master/common.props.
