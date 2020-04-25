@@ -77,7 +77,7 @@ Follow the steps below:
 
 ### README.md
 
-Refer to the [README.md](https://github.com/EasyAbp/PrivateMessaging/blob/master/README.md) demo. You can customize the structure, but in fact similar formats are more readable.
+Refer to the [README.md](https://github.com/EasyAbp/SharedResources/blob/master/README.md) demo. You can customize the structure, but in fact similar formats are more readable.
 
 ### Packaging and Publishing
 
