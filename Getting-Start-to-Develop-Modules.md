@@ -34,10 +34,15 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 
 4. Ensure the url of every menu item in **MyModuleNameMenuContributor.cs** is correct.
 
-## Step 4: Configure common.prop
+## Step 4: Change default GroupName
+
+1. Global search `public const string GroupName = "`.
+2. Replace all with `public const string GroupName = "EasyAbp.MyModuleName.`.
+
+## Step 5: Configure common.prop
 
 Modify the **common.prop** file with reference to: https://github.com/EasyAbp/PrivateMessaging/blob/master/common.props.
 
-## Step 5: Configure FodyWeavers.xml
+## Step 6: Configure FodyWeavers.xml
 
 After Building all the projects, **FodyWeavers.xml** will be generated to every project. Global replace `<ConfigureAwait />` to `<ConfigureAwait ContinueOnCapturedContext="false" />`.
