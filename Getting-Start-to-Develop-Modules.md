@@ -37,7 +37,7 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 ## Step 4: Change default GroupName
 
 1. Global search `public const string GroupName = "` in the module solution.
-2. Replace all with `public const string GroupName = "EasyAbp.MyModuleName.`.
+2. Replace all with `public const string GroupName = "EasyAbp.`.
 
 ## Step 5: Configure common.prop
 
