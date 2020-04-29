@@ -65,6 +65,10 @@ Refer to the [common.props](https://github.com/EasyAbp/PrivateMessaging/blob/mas
 * If you use [Auto API Controllers](https://docs.abp.io/en/abp/latest/API/Auto-API-Controllers), do not forget to explain [how to enable it](https://docs.abp.io/en/abp/latest/API/Auto-API-Controllers#configuration) in README.md.
 * You can also create controllers manually.
 
+### Change Default GroupName
+
+Todo.
+
 ### Testing
 
 Todo.
