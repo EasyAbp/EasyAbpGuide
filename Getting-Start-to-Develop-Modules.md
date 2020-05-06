@@ -34,10 +34,11 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 
 4. Ensure the url of every menu item in **MyModuleNameMenuContributor.cs** is correct.
 
-## Step 4: Change default GroupName
+## Step 4: Change default names
 
-1. Global search `public const string GroupName = "` in the module solution.
-2. Replace all with `public const string GroupName = "EasyAbp.`.
+1. Open `MyModuleNamePermissions.cs` and change **GroupName** to `EasyAbp.MyModuleName`.
+2. Open `MyModuleNameSettings.cs` and change **GroupName** to `EasyAbp.MyModuleName`.
+3. Open `MyModuleNameResource.cs` and replace `[LocalizationResourceName("MyModuleName")]` with `[LocalizationResourceName("EasyAbp.MyModuleName")]`.
 
 ## Step 5: Configure common.prop
 
