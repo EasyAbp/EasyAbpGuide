@@ -50,7 +50,6 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 | [Abp.TagHelperPlus](https://github.com/EasyAbp/Abp.TagHelperPlus) | An Abp MVC UI tag-helper enhancement module to provide enhanced ABP built in tag-helpers, rich text editor, dynamic tag selector and more. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.Elasticsearch](https://github.com/EasyAbp/Abp.Elasticsearch) | Abp Elasticsearch module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.WorkflowCore](https://github.com/EasyAbp/Abp.WorkflowCore) | Abp Workflow Core module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
-| [Abp.SignalR](https://github.com/EasyAbp/Abp.SignalR) | Abp SignalR module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 | [Abp.EventBus.CAP](https://github.com/EasyAbp/Abp.EventBus.CAP) | This is a repository integrated CAP with ABP EventBus. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
 | [Abp.SettingUi](https://github.com/EasyAbp/Abp.SettingUi) | An ABP module used to manage ABP settings. | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
 | [Abp.WeChat](https://github.com/EasyAbp/Abp.WeChat) | 专门为 ABP vNext 封装的微信模块，包括微信公众号和微信支付相关接口 | ![Released](https://img.shields.io/badge/-Released-brightgreen) |
