@@ -25,7 +25,7 @@ Example of module solution name:
 
 ### Solution Structure
 
-Todo.
+Read the document [Getting Start to Develop Modules](https://github.com/EasyAbp/EasyAbpGuide/blob/master/Getting-Start-to-Develop-Modules.md) and follow the **step 2** and the **step 3** to adjust the solution structure from the startup template.
 
 ### More Virtual Methods
 
@@ -43,15 +43,18 @@ Generally, please virtualize the above methods, but you should also think about 
 
 ### Menu Items
 
-Todo.
+Refer to the [MenuContributor demo](https://github.com/EasyAbp/GiftCardManagement/blob/master/src/EasyAbp.GiftCardManagement.Web/GiftCardManagementMenuContributor.cs).
+
+* Create a ModuleName menu item as the root of the module and put other menu items into it.
+* Hide the ModuleName menu item if there is no sub menu item in it.
 
 ### User Data
 
-Todo.
+Use `IExternalUserLookupServiceProvider` instead of `IIdentityUserRepository` or `IIdentityUserAppService` in all your code to get user's data.
 
 ### Using IClock
 
-Use `IClock.Now` instead of `DateTime.Now` or `DateTime.UtcNow` in all your code.
+Use `IClock.Now` instead of `DateTime.Now` or `DateTime.UtcNow` in all your code to get current date time.
 
 ### Using ConfigureAwait.Fody
 
@@ -60,14 +63,15 @@ Refer to the [common.props](https://github.com/EasyAbp/PrivateMessaging/blob/mas
 * Add `Fody` and `ConfigureAwait.Fody` references to module projects.
 * Set `<ConfigureAwait ContinueOnCapturedContext="false" />`.
 
-### Auto API Controllers
+### Don't Use the Auto API Controllers
 
-* If you use [Auto API Controllers](https://docs.abp.io/en/abp/latest/API/Auto-API-Controllers), do not forget to explain [how to enable it](https://docs.abp.io/en/abp/latest/API/Auto-API-Controllers#configuration) in README.md.
-* You can also create controllers manually.
+The ABP auto API controllers is not friendly to tiered solutions, so please use the [AbpHelper](https://github.com/EasyAbp/AbpHelper.GUI/blob/master/doc/Code-Generator/Controller-Generator/Usage.md) to generate controllers manually.
 
-### Change Default GroupName
+### Change Default Names
 
-Todo.
+* Open `MyModuleNamePermissions.cs` and change **GroupName** to `EasyAbp.MyModuleName`.
+* Open `MyModuleNameSettings.cs` and change **GroupName** to `EasyAbp.MyModuleName`.
+* Open `MyModuleNameResource.cs` and replace `[LocalizationResourceName("MyModuleName")]` with `[LocalizationResourceName("EasyAbpMyModuleName")]`.
 
 ### Testing
 
@@ -85,11 +89,12 @@ Refer to the [README.md](https://github.com/EasyAbp/SharedResources/blob/master/
 
 ### Packaging and Publishing
 
-Todo.
+Refer to the [nupkg folder](https://github.com/EasyAbp/PrivateMessaging/tree/master/nupkg) demo, edit the projects in **common.ps1**, then you can package the module with **pack.ps1** and publish the NuGet packages with **push_packages.ps1**.
 
 ### Continuous Updating
 
-Todo.
+* EasyAbp modules always follow the latest version of ABP vNext framework, so when a new version ABP released, you should upgrade your modules as soon as possible.
+* Write down the roadmap in README.md with reference to this [demo](https://github.com/EasyAbp/SharedResources/blob/master/README.md#roadmap) and implement them when you have time and inspiration.
 
 ## Contribute to EasyAbp
 
