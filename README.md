@@ -65,8 +65,8 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 
 ## Q & A
 
-**Q:** How to make ABP modules that meet the EasyAbp standard?<br/>
-**A:** See [Getting Start to Develop Modules](Getting-Start-to-Develop-Modules.md) document.
+**Q: How to make ABP modules that meet the EasyAbp standard?<br/>**
+A: See [Getting Start to Develop Modules](Getting-Start-to-Develop-Modules.md) document.
 
-**Q:** How to Contribute?<br/>
-**A:** See [Module Development Specification](Module-Development-Specification.md#contribute-to-easyabp) document.
+**Q: How to Contribute?<br/>**
+A: See [Module Development Specification](Module-Development-Specification.md#contribute-to-easyabp) document.
