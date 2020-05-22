@@ -98,12 +98,12 @@ Refer to the [nupkg folder](https://github.com/EasyAbp/PrivateMessaging/tree/mas
 
 ## Contribute to EasyAbp
 
-Todo.
+Welcome to contribute to EasyAbp organization, you can publish new modules or improve existing modules for us.
 
-### Publishing New Modules
+### Publish New Modules
 
-Todo.
+If you want to contribute a new module to EasyAbp, please create an issue [here](https://github.com/EasyAbp/EasyAbpGuide/issues) to introduce your design and provide the link to your module Github repository. We will evaluate your design and review your code, if the module is well-designed and needed, we will add it to EasyAbp org.
 
-### Improving Existing Modules
+### Improve Existing Modules
 
-Todo.
+If you want to improve an existing module, please create a PR in the module Github repository, which we will review and merge if it is needed.
