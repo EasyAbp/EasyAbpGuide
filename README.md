@@ -63,6 +63,10 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 | ------------ |-------------------------| ---------------------------------------- | ---------------- |
 | MVC          | [Easy](https://github.com/EasyAbp/Abp.AspNetCore.Mvc.UI.Theme.Easy) | EasyAbp's first Abp MVC UI theme module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
 
-## How to Contribute?
+## Q & A
 
-If you want to contribute codes or a new module to EasyAbp organization, please read the [Getting Start to Develop Modules](Getting-Start-to-Develop-Modules.md) document.
+**Q:** How to make ABP modules that meet the EasyAbp standard?<br/>
+**A:** See [Getting Start to Develop Modules](Getting-Start-to-Develop-Modules.md) document.
+
+**Q:** How to Contribute?<br/>
+**A:** See [Module Development Specification](Module-Development-Specification.md#contribute-to-easyabp) document.
