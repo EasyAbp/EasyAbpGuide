@@ -89,7 +89,7 @@ Refer to the [README.md](https://github.com/EasyAbp/SharedResources/blob/master/
 
 ### Packaging and Publishing
 
-Refer to the [nupkg folder](https://github.com/EasyAbp/PrivateMessaging/tree/master/nupkg) demo, edit the projects in **common.ps1**, then you can package the module with **pack.ps1** and publish the NuGet packages with **push_packages.ps1**.
+Refer to the [GitHub Action](https://github.com/EasyAbp/PrivateMessaging/tree/master/.github/workflows/publish.yml) demo, configure your project publication jobs. The NuGet packages will be automatic published after you commit a new version module to the **Master** branch.
 
 ### Continuous Updating
 
