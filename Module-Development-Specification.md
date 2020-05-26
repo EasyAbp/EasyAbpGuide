@@ -89,7 +89,7 @@ Refer to the [README.md](https://github.com/EasyAbp/SharedResources/blob/master/
 
 ### Packaging and Publishing
 
-Refer to the [GitHub Action](https://github.com/EasyAbp/PrivateMessaging/tree/master/.github/workflows/publish.yml) demo, configure your project publication jobs. The NuGet packages will be automatic built and published after you commit a new version module to the **master** branch.
+Refer to the [GitHub Action demo](https://github.com/EasyAbp/PrivateMessaging/tree/master/.github/workflows/publish.yml), configure your project publication jobs. The NuGet packages will be automatic built and published after you commit code to the **master** branch with a new module version.
 
 ### Continuous Updating
 
