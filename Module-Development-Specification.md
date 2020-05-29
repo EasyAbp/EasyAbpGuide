@@ -73,6 +73,10 @@ The ABP auto API controllers is not friendly to tiered solutions, so please use 
 * Open `MyModuleNameSettings.cs` and change **GroupName** to `EasyAbp.MyModuleName`.
 * Open `MyModuleNameResource.cs` and replace `[LocalizationResourceName("MyModuleName")]` with `[LocalizationResourceName("EasyAbpMyModuleName")]`.
 
+### Use Other Modules
+
+Todo.
+
 ### Testing
 
 Todo.
