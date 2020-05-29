@@ -15,7 +15,7 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 
 4. Open **MyModuleNameDomainSharedModule.cs**:
   * Change `options.FileSets.AddEmbedded<MyModuleNameDomainSharedModule>("EasyAbp.MyModuleName");` to `options.FileSets.AddEmbedded<MyModuleNameDomainSharedModule>();`.
-  * Change `.AddVirtualJson("/Localization/MyModuleName");` to `.AddVirtualJson("/EasyAbp/MyModuleName/Localization/MyModuleName");`.
+  * Change `.AddVirtualJson("/Localization/MyModuleName");` to `.AddVirtualJson("/EasyAbp/MyModuleName/Localization");`.
   * Change `options.MapCodeNamespace("MyModuleName", typeof(MyModuleNameResource));` to ``options.MapCodeNamespace("EasyAbp.MyModuleName", typeof(MyModuleNameResource));``.
 
 5. Open **EasyAbp.MyModuleName.Domain.Shared.csproj**:
