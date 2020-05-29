@@ -20,6 +20,7 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 
 5. Open **EasyAbp.MyModuleName.Domain.Shared.csproj**:
   * Change `<EmbeddedResource Include="Localization\MyModuleName\*.json" />` to `<EmbeddedResource Include="EasyAbp\MyModuleName\Localization\*.json" />`.
+  * Change `<Content Remove="Localization\MyModuleName\*.json" />` to `<Content Remove="EasyAbp\MyModuleName\Localization\*.json" />`.
   * Delete other unused `<EmbeddedResource ... />` configurations.
 
 ## Step 3: Adjust Web project
