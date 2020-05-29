@@ -95,6 +95,7 @@ Refer to the [GitHub Action demo](https://github.com/EasyAbp/PrivateMessaging/tr
 
 * EasyAbp modules always follow the latest version of ABP vNext framework, so when a new version ABP released, you should upgrade your modules as soon as possible.
 * Write down the roadmap in README.md with reference to this [demo](https://github.com/EasyAbp/SharedResources/blob/master/README.md#roadmap) and implement them when you have time and inspiration.
+* Create a new GitHub release and announce all the **breaking changes** before publish new version pacakges to NuGet.
 
 ## Contribute to EasyAbp
 
