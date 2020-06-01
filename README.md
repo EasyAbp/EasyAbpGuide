@@ -14,7 +14,7 @@ AbpHelper is a tool that help you with developing Abp vNext applications.
 
 * You can also use [AbpHelper.CLI](https://github.com/EasyAbp/AbpHelper.CLI) directly if you are more used to command line.
 
-## Modules Overview
+## Modules
 
 ABP is a modular application framework. We made a lot of useful and interesting modules, you can install them to your solution easily and use them for free.
 
@@ -62,6 +62,14 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 | UI Framework | Name                    | Description                              | Status           |
 | ------------ |-------------------------| ---------------------------------------- | ---------------- |
 | MVC          | [Easy](https://github.com/EasyAbp/Abp.AspNetCore.Mvc.UI.Theme.Easy) | EasyAbp's first Abp MVC UI theme module. | ![Unplanned](https://img.shields.io/badge/-Unplanned-lightgrey) |
+
+## Applications
+
+ABP application startup template or installer with pre-built modules.
+
+| Name             | Description                    | Status                                                               |
+| ---------------- |--------------------------------| -------------------------------------------------------------------- |
+| [EasyMall](https://github.com/EasyAbp/EasyMall) | Quickly build an e-commerce application based on EasyAbp.EShop. | ![Coming](https://img.shields.io/badge/-Coming-blue) |
 
 ## Q & A
 
