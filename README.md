@@ -20,7 +20,7 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 
 ### Application Modules
 
-| Name             | Description                    | Status                                                               |
+| Name             | Description                    | Release                                                               |
 | ---------------- |--------------------------------| -------------------------------------------------------------------- |
 | [Forum](https://github.com/EasyAbp/Forum) | An abp forum application module. | ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square) |
 | [Cms](https://github.com/EasyAbp/Cms) | An abp CMS application module. | ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square) |
@@ -39,7 +39,7 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 
 ### Framework Modules
 
-| Name             | Description                    | Status                                                               |
+| Name             | Description                    | Release                                                               |
 | ---------------- |--------------------------------| -------------------------------------------------------------------- |
 | [Abp.RelatedDtoLoader](https://github.com/EasyAbp/Abp.RelatedDtoLoader) | An Abp module that help you automatically load related DTO (like ProductDto in OrderDto) under DDD. | [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.RelatedDtoLoader.svg?style=flat-square&label=)](https://www.nuget.org/packages/EasyAbp.Abp.RelatedDtoLoader) |
 | [Abp.AspNetCoreRateLimit](https://github.com/EasyAbp/Abp.AspNetCoreRateLimit) | An Abp module helps you control how often your service is used. | [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.AspNetCoreRateLimit.svg?style=flat-square&label=)](https://www.nuget.org/packages/EasyAbp.Abp.AspNetCoreRateLimit) |
@@ -59,7 +59,7 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 
 ### UI Theme Modules
 
-| UI Framework | Name                    | Description                              | Status           |
+| UI Framework | Name                    | Description                              | Release           |
 | ------------ |-------------------------| ---------------------------------------- | ---------------- |
 | MVC          | [Easy](https://github.com/EasyAbp/Abp.AspNetCore.Mvc.UI.Theme.Easy) | EasyAbp's first Abp MVC UI theme module. | ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square) |
 
@@ -67,7 +67,7 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 
 ABP application startup template or installer with pre-built modules.
 
-| Name             | Description                    | Status                                                               |
+| Name             | Description                    | Release                                                               |
 | ---------------- |--------------------------------| -------------------------------------------------------------------- |
 | [EasyMall](https://github.com/EasyAbp/EasyMall) | Quickly build an e-commerce application based on EasyAbp.EShop. | [![Release](https://img.shields.io/github/v/release/EasyAbp/EasyMall?style=flat-square&label=)](https://github.com/EasyAbp/EasyMall/releases) |
 
