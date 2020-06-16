@@ -45,9 +45,8 @@ Generally, please virtualize the above methods, but you should also think about 
 
 Refer to the [MenuContributor demo](https://github.com/EasyAbp/GiftCardManagement/blob/master/src/EasyAbp.GiftCardManagement.Web/GiftCardManagementMenuContributor.cs).
 
-* The name of menu item should have a ModuleName prefix, for example: `GiftCardManagementGiftCard` is using the `GiftCardManagement` prefix.
-* Create a ModuleName menu item as the root of the module and put other menu items into it.
-* Hide the ModuleName menu item if there is no sub menu item in it.
+* The name of menu item should have a `CompanyName+ModuleName` prefix, for example: `EasyAbpGiftCardManagementGiftCard` is the `GiftCard` using the `EasyAbpGiftCardManagement` prefix.
+* Create a `CompanyName+ModuleName` menu item as the root of the module and put other menu items into it, hide it if there is nosub menu item inside.
 
 ### User Data
 
