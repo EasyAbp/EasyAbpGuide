@@ -31,9 +31,9 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 
 2. Ensure the ModalManager object in **index.js** has the correct path, for example: `new abp.ModalManager(abp.appPath + 'MyModuleName/MyEntities/MyEntity/CreateModal');`.
 
-3. Ensure the url of every menu item in **MyModuleNameMenuContributor.cs** is correct, add `ModuleName` prefix to the names of every menu item.
+3. Ensure the url of every menu item in **MyModuleNameMenuContributor.cs** is correct, add `CompanyNameModuleName` prefix to the names of every menu item (e.g. Adding `EasyAbpGiftCardManagement` prefix to the `GiftCard` menu item name).
 
-4. Ensure the `<abp-script ... />` and `<abp-style ... />` in **index.cshtml** have the correct path, for example: `<abp-script src="/Pages/MyModuleName/MyEntities/MyEntity/index.js" />`, add `ModuleName` prefix to **PageLayout.Content.MenuItemName**.
+4. Ensure the `<abp-script ... />` and `<abp-style ... />` in **index.cshtml** have the correct path, for example: `<abp-script src="/Pages/MyModuleName/MyEntities/MyEntity/index.js" />`, add `CompanyNameModuleName` prefix to **PageLayout.Content.MenuItemName**.
 
 ## Step 4: Change default names
 
