@@ -27,7 +27,7 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 
 > Tip: Skip this step if you do not need Web project.
 
-1. **Pages** folder should have only **MyModuleName** folder, the folders of other items should be in the **MyModuleName** folder. If you adjust the structure as above, ensure the namespaces are correct.
+1. **Pages** folder should have only **MyModuleName** subfolder, other folders should be in the **MyModuleName** folder. If you adjust the structure as above, ensure the namespaces are correct.
 
 2. Ensure the ModalManager object in **index.js** has the correct path, for example: `new abp.ModalManager(abp.appPath + 'MyModuleName/MyEntities/MyEntity/CreateModal');`.
 
