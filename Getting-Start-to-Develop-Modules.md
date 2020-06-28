@@ -29,13 +29,19 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 
 1. **Pages** folder should have only **MyModuleName** subfolder, other folders should be in the **MyModuleName** folder. If you adjust the structure as above, ensure the namespaces are correct.
 
-2. Ensure the ModalManager object in **index.js** has the correct path, for example: `new abp.ModalManager(abp.appPath + 'MyModuleName/MyEntities/MyEntity/CreateModal');`.
+2. Open all the **index.js** for entity management pages:
+  * Change `abp.localization.getResource('MyProjectName');` to `abp.localization.getResource('EasyAbpMyProjectName');`
+  * Ensure the ModalManager object has the correct path, for example: `new abp.ModalManager(abp.appPath + 'MyModuleName/MyEntities/MyEntity/CreateModal');`.
 
-3. Ensure the url of every menu item in **MyModuleNameMenuContributor.cs** is correct, add `CompanyName.ModuleName.` prefix to the names of every menu item (e.g. `EasyAbp.GiftCardManagement.GiftCard`).
+3. Open all the **index.cshtml** for entity management pages:
+  * Ensure **PageLayout.Content.MenuItemName** is using the `MyModuleNameMenus.MyItem`.
+  * Ensure the `<abp-script ... />` and `<abp-style ... />` have a correct path, for example: `<abp-script src="/Pages/MyModuleName/MyEntities/MyEntity/index.js" />`.
 
-4. Ensure the `<abp-script ... />` and `<abp-style ... />` in **index.cshtml** have the correct path, for example: `<abp-script src="/Pages/MyModuleName/MyEntities/MyEntity/index.js" />`, add `CompanyName+ModuleName` prefix to **PageLayout.Content.MenuItemName**.
+4. Open **MyModuleNameMenuContributor.cs**:
+  * Add `CompanyName.ModuleName.` prefix to the names of every menu item (e.g. `EasyAbp.GiftCardManagement.GiftCard`).
+  * Ensure the url of each menu item is correct.
 
-## Step 4: Change default names
+## Step 4: Change other names
 
 1. Open `MyModuleNamePermissions.cs` and change **GroupName** to `EasyAbp.MyModuleName`.
 2. Open `MyModuleNameSettings.cs` and change **GroupName** to `EasyAbp.MyModuleName`.
