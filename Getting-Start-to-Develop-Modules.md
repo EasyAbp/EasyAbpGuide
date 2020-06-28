@@ -39,7 +39,8 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 
 1. Open `MyModuleNamePermissions.cs` and change **GroupName** to `EasyAbp.MyModuleName`.
 2. Open `MyModuleNameSettings.cs` and change **GroupName** to `EasyAbp.MyModuleName`.
-3. Open `MyModuleNameResource.cs` and replace `[LocalizationResourceName("MyModuleName")]` with `[LocalizationResourceName("EasyAbpMyModuleName")]`.
+3. Open `MyModuleNameHttpApiClientModule.cs` and change **RemoteServiceName** to `EasyAbpMyModuleName`.
+4. Open `MyModuleNameResource.cs` and replace `[LocalizationResourceName("MyModuleName")]` with `[LocalizationResourceName("EasyAbpMyModuleName")]`.
 
 ## Step 5: Configure common.prop & FodyWeavers.xml
 
