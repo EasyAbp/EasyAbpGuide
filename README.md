@@ -36,9 +36,9 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 | [Oa.Workflow](https://github.com/EasyAbp/Oa.Workflow) | An abp application module you can use to create OA workflows with customized rules and data. | ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square) |
 | [SeedingTool](https://github.com/EasyAbp/SeedingTool) | An abp application module to help host/tenants re seed the initial data with background job in launched applications. | ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square) |
 | [CacheManagement](https://github.com/EasyAbp/CacheManagement) | An abp application module helps administrators to manage the app cache data. | [![NuGet](https://img.shields.io/nuget/v/EasyAbp.CacheManagement.Domain.Shared.svg?style=flat-square&label=)](https://www.nuget.org/packages/EasyAbp.CacheManagement.Domain.Shared) |
+| [EasyComment](https://github.com/EasyAbp/EasyComment) | An ABP application module provides a flexible comment system. | ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square) |
 | [WeChatManagement](https://github.com/EasyAbp/WeChatManagement) | 基于EasyAbp.Abp.WeChat模块实现微信登录、微信用户信息存储、微信服务器管理等高级功能的Abp应用模块 | ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square) |
 | [UniappManagement](https://github.com/EasyAbp/UniappManagement) | 实现uni-app的应用版本管理、整包更新、热更新、差量热更新等功能的Abp应用模块 | [![NuGet](https://img.shields.io/nuget/v/EasyAbp.UniappManagement.Domain.Shared.svg?style=flat-square&label=)](https://www.nuget.org/packages/EasyAbp.UniappManagement.Domain.Shared) |
-| [EasyComment](https://github.com/EasyAbp/EasyComment) | An ABP application module provides a flexible comment system. | ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square) |
 
 ### Framework Modules
 
