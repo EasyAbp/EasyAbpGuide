@@ -50,7 +50,15 @@ Refer to the [MenuContributor demo](https://github.com/EasyAbp/GiftCardManagemen
 
 ### User Data
 
-Use `IExternalUserLookupServiceProvider` instead of `IIdentityUserRepository` or `IIdentityUserAppService` in all your code to get user's data.
+There are two ways to get user data (such as UserName and PhoneNumber):
+
+1. Get from ABP's identity module.
+
+    * Use `IExternalUserLookupServiceProvider` instead of `IIdentityUserRepository` or `IIdentityUserAppService` in all your code to get user's data.
+
+2. Create an extra user entity and synchronize data from IdentityUser.
+
+    * See ABP document: [Creating a New Entity with Its Own Database Table/Collection](https://docs.abp.io/en/abp/latest/Customizing-Application-Modules-Extending-Entities#creating-a-new-entity-with-its-own-database-table-collection).
 
 ### Using IClock
 
