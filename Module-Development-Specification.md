@@ -59,6 +59,7 @@ There are two ways to get user data (such as UserName and PhoneNumber):
 2. Create an extra user entity and synchronize data from IdentityUser.
 
     * See ABP document: [Creating a New Entity with Its Own Database Table/Collection](https://docs.abp.io/en/abp/latest/Customizing-Application-Modules-Extending-Entities#creating-a-new-entity-with-its-own-database-table-collection).
+    * Use `IDistributedEventHandler` instead of `ILocalEventHandler` to synchronize user data.
 
 ### Using IClock
 
