@@ -33,7 +33,7 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
   * Ensure the ModalManager object has the correct path, for example: `new abp.ModalManager(abp.appPath + 'MyModuleName/MyEntities/MyEntity/CreateModal');`.
 
 3. Open all the **index.cshtml** for entity management pages:
-  * Ensure **PageLayout.Content.MenuItemName** is using the `MyModuleNameMenus.MyItem`.
+  * Change the **PageLayout.Content.MenuItemName** value to `MyModuleNameMyEntity`.
   * Ensure the `<abp-script ... />` and `<abp-style ... />` have a correct path, for example: `<abp-script src="/Pages/MyModuleName/MyEntities/MyEntity/index.js" />`.
 
 4. Open **MyModuleNameMenuContributor.cs**:
