@@ -30,14 +30,18 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 
 2. Open all the **index.js** for entity management pages:
   * Change `abp.localization.getResource('MyProjectName');` to `abp.localization.getResource('EasyAbpMyProjectName');`
-  * Ensure the ModalManager object has the correct path, for example: `new abp.ModalManager(abp.appPath + 'MyModuleName/MyEntities/MyEntity/CreateModal');`.
+  * Ensure the param value in `new abp.ModalManager()` is correct.
+  * Ensure the param value in `abp.auth.isGranted()`is correct.
 
 3. Open all the **index.cshtml** for entity management pages:
   * Change the **PageLayout.Content.MenuItemName** value to `MyModuleNameMyEntity`.
-  * Ensure the `<abp-script ... />` and `<abp-style ... />` have a correct path, for example: `<abp-script src="/Pages/MyModuleName/MyEntities/MyEntity/index.js" />`.
+  * Ensure the src value in `<abp-script ... />` and `<abp-style ... />` is correct.
 
-4. Open **MyModuleNameMenuContributor.cs**:
-  * Add `CompanyName.ModuleName.` prefix to the names of every menu item (e.g. `EasyAbp.GiftCardManagement.GiftCard`).
+4. Open **MyModuleNameMenus.cs**:
+  * Change the **Prefix** value to `EasyAbp.ModuleName.`.
+
+5. Open **MyModuleNameMenuContributor.cs**:
+  * Change the **Prefix** value to `CompanyName.ModuleName.` prefix to the names of every menu item (e.g. `EasyAbp.GiftCardManagement.GiftCard`).
   * Ensure the url of each menu item is correct.
 
 ## Step 4: Change other names
