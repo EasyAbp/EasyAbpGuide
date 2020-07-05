@@ -14,13 +14,13 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 3. Move all the files in `EasyAbp.MyModuleName.Domain.Shared/EasyAbp/MyModuleName/Localization/MyModuleName/` to `EasyAbp.MyModuleName.Domain.Shared/EasyAbp/MyModuleName/Localization/`.
 
 4. Open **MyModuleNameDomainSharedModule.cs**:
-  * Change `.AddVirtualJson("/Localization/MyModuleName");` to `.AddVirtualJson("/EasyAbp/MyModuleName/Localization");`.
-  * Change `options.MapCodeNamespace("MyModuleName", typeof(MyModuleNameResource));` to ``options.MapCodeNamespace("EasyAbp.MyModuleName", typeof(MyModuleNameResource));``.
+   * Change `.AddVirtualJson("/Localization/MyModuleName");` to `.AddVirtualJson("/EasyAbp/MyModuleName/Localization");`.
+   * Change `options.MapCodeNamespace("MyModuleName", typeof(MyModuleNameResource));` to ``options.MapCodeNamespace("EasyAbp.MyModuleName", typeof(MyModuleNameResource));``.
 
 5. Open **EasyAbp.MyModuleName.Domain.Shared.csproj**:
-  * Change `<EmbeddedResource Include="Localization\MyModuleName\*.json" />` to `<EmbeddedResource Include="EasyAbp\MyModuleName\Localization\*.json" />`.
-  * Change `<Content Remove="Localization\MyModuleName\*.json" />` to `<Content Remove="EasyAbp\MyModuleName\Localization\*.json" />`.
-  * Delete other unused `<EmbeddedResource ... />` configurations.
+   * Change `<EmbeddedResource Include="Localization\MyModuleName\*.json" />` to `<EmbeddedResource Include="EasyAbp\MyModuleName\Localization\*.json" />`.
+   * Change `<Content Remove="Localization\MyModuleName\*.json" />` to `<Content Remove="EasyAbp\MyModuleName\Localization\*.json" />`.
+   * Delete other unused `<EmbeddedResource ... />` configurations.
 
 ## Step 3: Adjust Web project
 
@@ -29,19 +29,19 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 1. **Pages** folder should have only **MyModuleName** subfolder, other folders should be in the **MyModuleName** folder. If you adjust the structure as above, ensure the namespaces are correct.
 
 2. Open all the **index.js** for entity management pages:
-  * Change `abp.localization.getResource('MyProjectName');` to `abp.localization.getResource('EasyAbpMyProjectName');`
-  * Ensure the param value in `new abp.ModalManager()` is correct.
-  * Ensure the param value in `abp.auth.isGranted()`is correct.
+   * Change `abp.localization.getResource('MyProjectName');` to `abp.localization.getResource('EasyAbpMyProjectName');`
+   * Ensure the param value in `new abp.ModalManager()` is correct.
+   * Ensure the param value in `abp.auth.isGranted()`is correct.
 
 3. Open all the **index.cshtml** for entity management pages:
-  * Change the **PageLayout.Content.MenuItemName** value to `MyModuleNameMyEntityName`.
-  * Ensure the src value in `<abp-script ... />` and `<abp-style ... />` is correct.
+   * Change the **PageLayout.Content.MenuItemName** value to `MyModuleNameMyEntityName`.
+   * Ensure the src value in `<abp-script ... />` and `<abp-style ... />` is correct.
 
 4. Open **MyModuleNameMenus.cs**:
-  * Change the **Prefix** value to `EasyAbp.ModuleName`.
+   * Change the **Prefix** value to `EasyAbp.ModuleName`.
 
 5. Open **MyModuleNameMenuContributor.cs**:
-  * Ensure the url of each menu item is correct.
+   * Ensure the url of each menu item is correct.
 
 ## Step 4: Change other names
 
