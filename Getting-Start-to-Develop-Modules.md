@@ -9,7 +9,7 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 
 1. In every project (except Web), create folders according to namespace and move all the original files and folders in, for example: `EasyAbp/(Abp)/MyModuleName/`.
 
-2. Search `<RootNamespace>EasyAbp.MyModuleName</RootNamespace>` in src folder and replace with `<RootNamespace />`.
+2. Search `<RootNamespace>EasyAbp.MyModuleName</RootNamespace>` in **src** folder and replace with `<RootNamespace />`.
 
 3. Move all the files in `EasyAbp.MyModuleName.Domain.Shared/EasyAbp/MyModuleName/Localization/MyModuleName/` to `EasyAbp.MyModuleName.Domain.Shared/EasyAbp/MyModuleName/Localization/`.
 
@@ -30,18 +30,26 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 
 2. Open all the **index.js** for entity management pages:
    * Change `abp.localization.getResource('MyProjectName');` to `abp.localization.getResource('EasyAbpMyProjectName');`
-   * Ensure the param value in `new abp.ModalManager()` is correct.
-   * Ensure the param value in `abp.auth.isGranted()`is correct.
 
 3. Open all the **index.cshtml** for entity management pages:
    * Change the **PageLayout.Content.MenuItemName** value to `MyModuleNameMyEntityName`.
-   * Ensure the src value in `<abp-script ... />` and `<abp-style ... />` is correct.
 
 4. Open **MyModuleNameMenus.cs**:
    * Change the **Prefix** value to `EasyAbp.ModuleName`.
 
-5. Open **MyModuleNameMenuContributor.cs**:
+<details>
+<summary>Optional steps</summary>
+
+1. Open all the **index.js** for entity management pages:
+   * Ensure the param value in `new abp.ModalManager()` is correct.
+   * Ensure the param value in `abp.auth.isGranted()`is correct.
+
+2. Open all the **index.cshtml** for entity management pages:
+   * Ensure the src value in `<abp-script ... />` and `<abp-style ... />` is correct.
+
+3. Open **MyModuleNameMenuContributor.cs**:
    * Ensure the url of each menu item is correct.
+</details>
 
 ## Step 4: Change other names
 
