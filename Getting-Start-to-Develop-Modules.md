@@ -34,14 +34,13 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
   * Ensure the param value in `abp.auth.isGranted()`is correct.
 
 3. Open all the **index.cshtml** for entity management pages:
-  * Change the **PageLayout.Content.MenuItemName** value to `MyModuleNameMyEntity`.
+  * Change the **PageLayout.Content.MenuItemName** value to `MyModuleNameMyEntityName`.
   * Ensure the src value in `<abp-script ... />` and `<abp-style ... />` is correct.
 
 4. Open **MyModuleNameMenus.cs**:
-  * Change the **Prefix** value to `EasyAbp.ModuleName.`.
+  * Change the **Prefix** value to `EasyAbp.ModuleName`.
 
 5. Open **MyModuleNameMenuContributor.cs**:
-  * Change the **Prefix** value to `CompanyName.ModuleName.` prefix to the names of every menu item (e.g. `EasyAbp.GiftCardManagement.GiftCard`).
   * Ensure the url of each menu item is correct.
 
 ## Step 4: Change other names
