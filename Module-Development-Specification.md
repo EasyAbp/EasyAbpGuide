@@ -74,7 +74,7 @@ Refer to the [common.props](https://github.com/EasyAbp/PrivateMessaging/blob/mas
 
 ### Don't Use the Auto API Controllers
 
-The ABP auto API controllers is not friendly to tiered solutions, so please use the [AbpHelper](https://github.com/EasyAbp/AbpHelper.GUI/blob/master/doc/Code-Generator/Controller-Generator/Usage.md) to generate controllers manually.
+The ABP auto API controllers is not friendly to tiered solutions, so please use the [AbpHelper](https://github.com/EasyAbp/AbpHelper.GUI/blob/master/doc/ AbpHelper-CLI/Generate-Controller-Code/Usage.md) to generate controllers manually.
 
 ### Change Default Names
 
