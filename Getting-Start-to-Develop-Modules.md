@@ -22,7 +22,7 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
    * Change `<Content Remove="Localization\MyModuleName\*.json" />` to `<Content Remove="EasyAbp\MyModuleName\Localization\*.json" />`.
    * Delete other unused `<EmbeddedResource ... />` configurations.
 
-## Step 3: Adjust Web project
+## Step 3: Adjust pages
 
 > Tip: Skip this step if you do not need Web project.
 
@@ -33,9 +33,6 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 
 3. Open all the **index.cshtml** for entity management pages:
    * Change the **PageLayout.Content.MenuItemName** value to `MyModuleNameMyEntityName`.
-
-4. Open **MyModuleNameMenus.cs**:
-   * Change the **Prefix** value to `EasyAbp.ModuleName`.
 
 <details>
 <summary>Optional steps</summary>
