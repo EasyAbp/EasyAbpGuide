@@ -8,7 +8,7 @@ An open source organization to enhance your ABP project development efficiency.
 
 ## AbpHelper
 
-AbpHelper provides code generation and more features to help you develop with the ABP framework.
+AbpHelper provides code generation and more features to help you develop applications and modules with the ABP framework.
 
 * We provide [AbpHelper.GUI](https://github.com/EasyAbp/AbpHelper.GUI) to help you use it more visually.
 
