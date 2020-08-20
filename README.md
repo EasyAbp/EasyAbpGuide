@@ -79,4 +79,4 @@ ABP application startup template or installer with pre-built modules.
 
 ## "How To" Guides
 
-See ["How To" Guides](/How-To.md#develop-an-easyabp-module).
+See ["How To" Guides](/How-To.md).
