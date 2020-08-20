@@ -17,7 +17,7 @@ jobs:
         uses: shitiomatic/str-replace@master
         with:
           find: \]\((/docs/)
-          replace: "](/guide/"
+          replace: "](/guide/${{ github.event.repository.name }}/"
           include: docs/
 
       - name: Pull repo and change files
@@ -26,10 +26,10 @@ jobs:
           ls
           git clone https://github.com/EasyAbp/easyabp.github.io
           cd easyabp.github.io
-          rm -rf docs/guide
-          rm -rf docs/.vuepress/public/guide
-          cp -rf ../docs/ docs/guide
-          cp -rf ../docs/ docs/.vuepress/public/guide
+          rm -rf docs/guide/${{ github.event.repository.name }}
+          rm -rf docs/.vuepress/public/guide/${{ github.event.repository.name }}
+          cp -rf ../docs/ docs/guide/${{ github.event.repository.name }}
+          cp -rf ../docs/ docs/.vuepress/public/guide/${{ github.event.repository.name }}
           git add --all
           echo "##[set-output name=diff;]$(git diff --staged)"
 
