@@ -28,6 +28,8 @@ jobs:
           cd easyabp.github.io
           rm -rf docs/guide/${{ github.event.repository.name }}
           rm -rf docs/.vuepress/public/guide/${{ github.event.repository.name }}
+          mkdir -p docs/guide
+          mkdir -p docs/.vuepress/public/guide
           cp -rf ../docs/ docs/guide/${{ github.event.repository.name }}
           cp -rf ../docs/ docs/.vuepress/public/guide/${{ github.event.repository.name }}
           git add --all
