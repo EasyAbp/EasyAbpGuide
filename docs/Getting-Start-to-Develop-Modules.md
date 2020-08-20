@@ -1,5 +1,5 @@
 # Getting Start to Develop Modules
-This article will show you how to develop ABP modules that follow the [Module Development Specification](Module-Development-Specification.md) document.
+This article will show you how to develop ABP modules that follow the [Module Development Specification](/docs/Module-Development-Specification.md) document.
 
 ## Step 1: Generate a new ABP module
 
