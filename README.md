@@ -77,10 +77,6 @@ ABP application startup template or installer with pre-built modules.
 | ---------------- |--------------------------------| -------------------------------------------------------------------- |
 | [EasyMall](https://github.com/EasyAbp/EasyMall) | Quickly build an e-commerce application based on EasyAbp.EShop. | [![Release](https://img.shields.io/github/v/release/EasyAbp/EasyMall?style=flat-square&label=)](https://github.com/EasyAbp/EasyMall/releases) |
 
-## Q & A
+## "How To" Guides
 
-**Q: How to make ABP modules that meet the EasyAbp standard?<br/>**
-A: See [Getting Start to Develop Modules](Getting-Start-to-Develop-Modules.md) document.
-
-**Q: How to Contribute?<br/>**
-A: See [Module Development Specification](Module-Development-Specification.md#contribute-to-easyabp) document.
+See ["How To" Guides](/How-To.md#develop-an-easyabp-module).
