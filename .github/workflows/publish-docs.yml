@@ -28,8 +28,6 @@ jobs:
           cd easyabp.github.io
           rm -rf docs/guide
           rm -rf docs/.vuepress/public/guide
-          mkdir -p docs/guide
-          mkdir -p docs/.vuepress/public/guide
           cp -rf ../docs/ docs/guide
           cp -rf ../docs/ docs/.vuepress/public/guide
           git add --all
