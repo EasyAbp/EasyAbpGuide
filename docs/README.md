@@ -68,6 +68,7 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 
 | UI Framework | Name                    | Description                              | Release           |
 | ------------ |-------------------------| ---------------------------------------- | ---------------- |
+| MVC          | [LYear](https://github.com/EasyAbp/Abp.AspNetCore.Mvc.UI.Theme.LYear) | A simple ABP MVC UI theme. | [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.AspNetCore.Mvc.UI.Theme.LYear.svg?style=flat-square&label=)](https://www.nuget.org/packages/EasyAbp.Abp.AspNetCore.Mvc.UI.Theme.LYear) |
 | MVC          | [Easy](https://github.com/EasyAbp/Abp.AspNetCore.Mvc.UI.Theme.Easy) | EasyAbp's first Abp MVC UI theme module. | ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square) |
 
 ## Applications
