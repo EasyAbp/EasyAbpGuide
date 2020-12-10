@@ -7,7 +7,7 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 
 ## Step 2: Complete the project structure
 
-1. In every project (except Web), create folders according to namespace and move all the original files and folders in, for example: `EasyAbp/(Abp)/MyModuleName/`.
+1. For each project (except the Web project), create folders according to namespace and move all the original files and folders in, for example: `EasyAbp/(Abp)/MyModuleName/`.
 
 2. Search `<RootNamespace>EasyAbp.MyModuleName</RootNamespace>` in **src** folder and replace with `<RootNamespace />`.
 
