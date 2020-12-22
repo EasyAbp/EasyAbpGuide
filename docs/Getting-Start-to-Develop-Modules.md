@@ -32,7 +32,7 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
    * Change `abp.localization.getResource('MyProjectName');` to `abp.localization.getResource('EasyAbpMyProjectName');`
 
 3. Open all the **index.cshtml** for entity management pages:
-   * Change the **PageLayout.Content.MenuItemName** value to `MyModuleNameMyEntityName`.
+   * Change the **PageLayout.Content.MenuItemName** value to `MyModuleNameMenus.MyEntityName`.
 
 <details>
 <summary>Optional steps</summary>
