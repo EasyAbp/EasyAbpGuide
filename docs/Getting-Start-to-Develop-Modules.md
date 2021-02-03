@@ -49,7 +49,7 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
    
 </details>
 
-## Step 4: Change other names
+## Step 4: Change the name constants
 
 1. Open `MyModuleNamePermissions.cs` and change **GroupName** to `EasyAbp.MyModuleName`.
 
@@ -63,8 +63,12 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 
 6. Open `MyModuleNameResource.cs` and replace `[LocalizationResourceName("MyModuleName")]` with `[LocalizationResourceName("EasyAbpMyModuleName")]`.
 
-## Step 5: Configure common.prop & FodyWeavers.xml
+## Step 5: Project configurations
 
 1. Modify the **common.prop** file according to: https://github.com/EasyAbp/PrivateMessaging/blob/master/common.props.
 
-2. After Building all the projects, **FodyWeavers.xml** will be generated to every project. Global replace `<ConfigureAwait />` to `<ConfigureAwait ContinueOnCapturedContext="false" />`.
+2. Unified ABP version number.
+  1. Put ABP version number into the **Directory.Build.props** file (see [demo](https://github.com/EasyAbp/PrivateMessaging/blob/master/Directory.Build.props)).
+  2. Replace `<PackageReference Include="Volo.Abp.xxx" Version="x.x.x" />` to `<PackageReference Include="Volo.Abp.xxx" Version="$(AbpVersion)" />` in all the .csproj files of the solution.
+
+3. After Building all the projects, **FodyWeavers.xml** will be generated to every project. Global replace `<ConfigureAwait />` to `<ConfigureAwait ContinueOnCapturedContext="false" />`.
