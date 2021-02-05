@@ -88,6 +88,12 @@ An abp application module to help host/tenants re seed the initial data with bac
 
 An abp application module helps administrators to manage the app cache data.
 
+#### [LoggingManagement](https://github.com/EasyAbp/LoggingManagement) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FLoggingManagement%2Fmain%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.LoggingManagement.Application.Contracts.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.LoggingManagement.Application.Contracts) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.LoggingManagement.Application.Contracts.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.LoggingManagement.Application.Contracts) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/LoggingManagement?style=social)](https://www.github.com/EasyAbp/LoggingManagement)
+
+An abp application module to help you query and manage your application logs.
+
+
+
 #### [WeChatManagement](https://github.com/EasyAbp/WeChatManagement) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FWeChatManagement%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.WeChatManagement.Common.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.WeChatManagement.Common.Domain.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.WeChatManagement.Common.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.WeChatManagement.Common.Domain.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/WeChatManagement?style=social)](https://www.github.com/EasyAbp/WeChatManagement)
 
 基于EasyAbp.Abp.WeChat模块实现微信登录、微信用户信息存储、微信服务器管理等高级功能的Abp应用模块组
