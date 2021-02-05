@@ -112,10 +112,6 @@ An Abp module that help you automatically load related DTO (like ProductDto in O
 
 An Abp module helps you control how often your service is used.
 
-#### [Abp.StorageService](https://github.com/EasyAbp/Abp.StorageService) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
-
-An ABP module to realize storage, which helps you upload to the storage and manage the stored data.
-
 #### [Abp.Cqrs](https://github.com/EasyAbp/Abp.Cqrs) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
 
 An Abp module to implement CQRS.
