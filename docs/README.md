@@ -76,9 +76,9 @@ An abp application module that allows users to chat with each other instantly.
 
 An abp application module you can use to create OA workflows with customized rules and data.
 
-#### [Achievements](https://github.com/EasyAbp/Achievements) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
+#### [GoalManagement](https://github.com/EasyAbp/GoalManagement) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
 
-An abp application module that allows to set goals and rewards the achievements of the goals.
+An abp application module that allows setting goals and rewards users who achieve the goals.
 
 #### [SeedingTool](https://github.com/EasyAbp/SeedingTool) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
 
