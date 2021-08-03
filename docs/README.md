@@ -148,6 +148,10 @@ This is a repository integrated CAP with ABP EventBus.
 
 An ABP module used to manage ABP settings.
 
+#### [Abp.EntityUi](https://github.com/EasyAbp/Abp.EntityUi) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.EntityUi%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.EntityUi.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.EntityUi.Domain.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.EntityUi.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.EntityUi.Domain.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.EntityUi?style=social)](https://www.github.com/EasyAbp/Abp.EntityUi)
+
+An abp module that dynamically generates management UI for entities in runtime.
+
 #### [Abp.Trees](https://github.com/EasyAbp/Abp.Trees) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.Trees%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.Trees.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.Trees.Domain.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.Trees.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.Trees.Domain.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.Trees?style=social)](https://www.github.com/EasyAbp/Abp.Trees)
 
 An abp module that provides standard tree structure entity implement.
