@@ -104,10 +104,6 @@ An abp application module to help you query and manage your application logs.
 
 ### Framework Modules
 
-#### [Abp.EntityUi](https://github.com/EasyAbp/Abp.EntityUi) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
-
-An abp module that dynamically generates management UI for entities in runtime.
-
 #### [Abp.RelatedDtoLoader](https://github.com/EasyAbp/Abp.RelatedDtoLoader) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.RelatedDtoLoader%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.RelatedDtoLoader.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.RelatedDtoLoader) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.RelatedDtoLoader.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.RelatedDtoLoader) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.RelatedDtoLoader?style=social)](https://www.github.com/EasyAbp/Abp.RelatedDtoLoader)
 
 An Abp module that help you automatically load related DTO (like ProductDto in OrderDto) under DDD.
@@ -152,6 +148,14 @@ An ABP module used to manage ABP settings.
 
 An abp module that dynamically generates management UI for entities in runtime.
 
+#### [Abp.DynamicQuery](https://github.com/EasyAbp/Abp.DynamicQuery) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.DynamicQuery%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.DynamicQuery.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.DynamicQuery.Domain.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.DynamicQuery.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.DynamicQuery.Domain.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.DynamicQuery?style=social)](https://www.github.com/EasyAbp/Abp.DynamicQuery)
+
+An ABP module helps you quickly implement dynamic queries.
+
+#### [Abp.DynamicEntity](https://github.com/EasyAbp/Abp.DynamicEntity) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.DynamicEntity%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.DynamicEntity.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.DynamicEntity.Domain.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.DynamicEntity.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.DynamicEntity.Domain.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.DynamicEntity?style=social)](https://www.github.com/EasyAbp/Abp.DynamicEntity)
+
+An ABP module that can dynamically create entities at runtime and perform CRUD operations like normal entities.
+
 #### [Abp.Trees](https://github.com/EasyAbp/Abp.Trees) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.Trees%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.Trees.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.Trees.Domain.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.Trees.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.Trees.Domain.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.Trees?style=social)](https://www.github.com/EasyAbp/Abp.Trees)
 
 An abp module that provides standard tree structure entity implement.
@@ -163,14 +167,6 @@ Abp TencentCloud SMS module.
 #### [Abp.BlobStoring.TencentCloud](https://github.com/EasyAbp/Abp.BlobStoring.TencentCloud) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.BlobStoring.TencentCloud%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.BlobStoring.TencentCloud.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.BlobStoring.TencentCloud) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.BlobStoring.TencentCloud.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.BlobStoring.TencentCloud) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.BlobStoring.TencentCloud?style=social)](https://www.github.com/EasyAbp/Abp.BlobStoring.TencentCloud)
 
 TencentCloud implementation of Abp BLOB Storing.
-
-#### [Abp.DynamicQuery](https://github.com/EasyAbp/Abp.DynamicQuery) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
-
-An ABP module helps you quickly implement dynamic queries.
-
-#### [Abp.DynamicEntity](https://github.com/EasyAbp/Abp.DynamicEntity) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
-
-An ABP module that can dynamically create entities at runtime and perform CRUD operations like normal entities.
 
 #### [Abp.PhoneNumberLogin](https://github.com/EasyAbp/Abp.PhoneNumberLogin) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.PhoneNumberLogin%2Fmain%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.PhoneNumberLogin.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.PhoneNumberLogin.Domain.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.PhoneNumberLogin.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.PhoneNumberLogin.Domain.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.PhoneNumberLogin?style=social)](https://www.github.com/EasyAbp/Abp.PhoneNumberLogin)
 
