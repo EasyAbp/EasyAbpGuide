@@ -4,15 +4,15 @@ An open source organization to enhance your ABP project development efficiency.
 
 ## ABP Framework
 
-[ABP Framework](https://github.com/abpframework/abp) is an open-source web application framework based on [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core). All the products in EasyAbp organization are designed for the ABP framework.
+[ABP Framework](https://github.com/abpframework/abp) [![GitHub stars](https://img.shields.io/github/stars/abpframework/abp?style=social)](https://www.github.com/abpframework/abp) is an open-source web application framework based on [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core). All the products in EasyAbp organization are designed for the ABP framework.
 
 ## AbpHelper
 
 AbpHelper provides code generation and more features to help you develop applications and modules with the ABP framework.
 
-* We provide [AbpHelper.GUI](https://github.com/EasyAbp/AbpHelper.GUI) to help you use it more visually.
+* We provide [AbpHelper.GUI](https://github.com/EasyAbp/AbpHelper.GUI) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/AbpHelper.GUI?style=social)](https://www.github.com/EasyAbp/AbpHelper.GUI) to help you use it more visually.
 
-* You can also use [AbpHelper.CLI](https://github.com/EasyAbp/AbpHelper.CLI) directly if you are more used to command line.
+* You can also use [AbpHelper.CLI](https://github.com/EasyAbp/AbpHelper.CLI) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/AbpHelper.CLI?style=social)](https://www.github.com/EasyAbp/AbpHelper.CLI) directly if you are more used to command line.
 
 ## Modules
 
