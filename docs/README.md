@@ -76,6 +76,10 @@ An abp application module that allows users to chat with each other instantly.
 
 An abp application module you can use to create OA workflows with customized rules and data.
 
+#### [ElsaWorkflows](https://github.com/EasyAbp/ElsaWorkflows) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
+
+Abp Elsa Workflows module, not only integrating Elsa Core library but also providing preset Elsa activities for the ABP framework.
+
 #### [GoalManagement](https://github.com/EasyAbp/GoalManagement) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
 
 An abp application module that allows setting goals and rewards users who achieve the goals.
@@ -91,8 +95,6 @@ An abp application module helps administrators to manage the app cache data.
 #### [LoggingManagement](https://github.com/EasyAbp/LoggingManagement) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FLoggingManagement%2Fmain%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.LoggingManagement.Application.Contracts.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.LoggingManagement.Application.Contracts) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.LoggingManagement.Application.Contracts.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.LoggingManagement.Application.Contracts) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/LoggingManagement?style=social)](https://www.github.com/EasyAbp/LoggingManagement)
 
 An abp application module to help you query and manage your application logs.
-
-
 
 #### [WeChatManagement](https://github.com/EasyAbp/WeChatManagement) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FWeChatManagement%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.WeChatManagement.Common.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.WeChatManagement.Common.Domain.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.WeChatManagement.Common.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.WeChatManagement.Common.Domain.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/WeChatManagement?style=social)](https://www.github.com/EasyAbp/WeChatManagement)
 
@@ -131,10 +133,6 @@ Abp data dictionary module.
 #### [Abp.Elasticsearch](https://github.com/EasyAbp/Abp.Elasticsearch) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
 
 Abp Elasticsearch module.
-
-#### [Abp.WorkflowCore](https://github.com/EasyAbp/Abp.WorkflowCore) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
-
-Abp Workflow Core module.
 
 #### [Abp.EventBus.CAP](https://github.com/EasyAbp/Abp.EventBus.CAP) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.EventBus.CAP%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.EventBus.CAP.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.EventBus.CAP) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.EventBus.CAP.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.EventBus.CAP) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.EventBus.CAP?style=social)](https://www.github.com/EasyAbp/Abp.EventBus.CAP)
 
