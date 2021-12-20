@@ -20,7 +20,7 @@ ABP is a modular application framework. We made a lot of useful and interesting 
 
 ### Application Modules
 
-#### [Forum](https://github.com/EasyAbp/Forum) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
+#### [Forum](https://github.com/EasyAbp/Forum) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FForum%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Forum.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Forum.Domain.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Forum.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Forum.Domain.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Forum?style=social)](https://www.github.com/EasyAbp/Forum)
 
 An abp forum application module.
 
