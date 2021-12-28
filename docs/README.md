@@ -1,4 +1,5 @@
 # EasyAbp
+[![Discord online](https://badgen.net/discord/online-members/S6QaezrCRq?label=Discord)](https://discord.gg/S6QaezrCRq)
 
 An open source organization to enhance your ABP project development efficiency.
 
@@ -105,6 +106,10 @@ An abp application module to help you query and manage your application logs.
 实现uni-app的应用版本管理、整包更新、热更新、差量热更新等功能的Abp应用模块
 
 ### Framework Modules
+
+#### [Abp.GraphQL](https://github.com/EasyAbp/Abp.GraphQL) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.GraphQL%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.GraphQL.Provider.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.GraphQL.Provider.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.GraphQL.Provider.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.GraphQL.Provider.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.GraphQL?style=social)](https://www.github.com/EasyAbp/Abp.GraphQL)
+
+An ABP module that allows using application services by GraphQL. It also accepted custom schemes and types you defined.
 
 #### [Abp.RelatedDtoLoader](https://github.com/EasyAbp/Abp.RelatedDtoLoader) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.RelatedDtoLoader%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.RelatedDtoLoader.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.RelatedDtoLoader) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.RelatedDtoLoader.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.RelatedDtoLoader) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.RelatedDtoLoader?style=social)](https://www.github.com/EasyAbp/Abp.RelatedDtoLoader)
 
