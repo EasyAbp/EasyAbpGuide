@@ -22,20 +22,17 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
    * Change `<Content Remove="Localization\MyModuleName\*.json" />` to `<Content Remove="EasyAbp\MyModuleName\Localization\*.json" />`.
    * Delete other unused `<EmbeddedResource ... />` configurations.
 
-## Step 3: Adjust pages
+## Step 3: Adjust code of pages
 
-> Tip: Skip this step if you do not need Web project.
+Tip: Skip this step if you do not need Web project.
 
-1. **Pages** folder should have only **MyModuleName** subfolder, other folders should be in the **MyModuleName** folder. If you adjust the structure as above, ensure the namespaces are correct.
+1. **Pages** folder should have only **MyModuleName** subfolder, other folders and files should be in the **MyModuleName** folder.
 
 2. Open all the **index.js** for entity management pages:
    * Change `abp.localization.getResource('MyProjectName');` to `abp.localization.getResource('EasyAbpMyProjectName');`
 
-3. Open all the **index.cshtml** for entity management pages:
-   * Change the **PageLayout.Content.MenuItemName** value to `MyModuleNameMenus.MyEntityName`.
-
 <details>
-<summary>Optional steps</summary>
+<summary>Detail checks</summary>
 
 1. Open all the **index.js** for entity management pages:
    * Ensure the param value in `new abp.ModalManager()` is correct.
@@ -49,7 +46,7 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
    
 </details>
 
-## Step 4: Change the name constants
+## Step 4: Change and use name constants
 
 1. Open `MyModuleNamePermissions.cs` and change **GroupName** to `EasyAbp.MyModuleName`.
 
@@ -59,16 +56,16 @@ Use ABP CLI to generate a new ABP module solution with the name prefix `EasyAbp.
 
 4. Open `MyModuleNameDbProperties.cs` and change **DbTablePrefix** and **ConnectionStringName** to `EasyAbpMyModuleName`.
 
-5. Open `MyModuleNameHttpApiClientModule.cs` and change **RemoteServiceName** to `EasyAbpMyModuleName`.
+5. Open `MyModuleNameRemoteServiceConsts.cs` and change **RemoteServiceName** to `MyModuleNameRemoteServiceConsts.RemoteServiceName`.
 
 6. Open `MyModuleNameResource.cs` and replace `[LocalizationResourceName("MyModuleName")]` with `[LocalizationResourceName("EasyAbpMyModuleName")]`.
 
-## Step 5: Project configurations
+7. Open `MyModuleNameController.cs` and add **[Area(MyModuleNameServiceConsts.ModuleName)]** attribute.
+
+## Step 5: Other adjustments
 
 1. Modify the **common.prop** file according to: https://github.com/EasyAbp/PrivateMessaging/blob/master/common.props.
 
 2. Unified ABP version number.
   1. Put ABP version number into the **Directory.Build.props** file (see [demo](https://github.com/EasyAbp/PrivateMessaging/blob/master/Directory.Build.props)).
   2. Replace `<PackageReference Include="Volo.Abp.xxx" Version="x.x.x" />` to `<PackageReference Include="Volo.Abp.xxx" Version="$(AbpVersion)" />` in all the .csproj files of the solution.
-
-3. After Building all the projects, **FodyWeavers.xml** will be generated to every project. Global replace `<ConfigureAwait />` to `<ConfigureAwait ContinueOnCapturedContext="false" />`.

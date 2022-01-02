@@ -25,21 +25,21 @@ Example of module solution name:
 
 ### Solution Structure
 
-Read the document [Getting Start to Develop Modules](https://github.com/EasyAbp/EasyAbpGuide/blob/master/Getting-Start-to-Develop-Modules.md) and follow the **step 2** and the **step 3** to adjust the solution structure from the startup template.
+Read the document [Getting Start to Develop Modules](https://github.com/EasyAbp/EasyAbpGuide/blob/master/docs/Getting-Start-to-Develop-Modules.md) and follow it to adjust your module solution from the startup template.
 
 ### More Virtual Methods
 
 According to https://github.com/abpframework/abp/issues/3166
 
-> * Make all public/protected methods virtual (including entities, domain services, application services, page models, view components...) to make them easily overridable.
-> * Make all private methods of domain & application services "protected virtual" to also be able to override them.
+* Make all public/protected methods virtual (including entities, domain services, application services, page models, view components...) to make them easily overridable.
+* Make all private methods of domain & application services "protected virtual" to also be able to override them.
 
 Generally, please virtualize the above methods, but you should also think about maintainability and consider protecting some methods if necessary.
 
 ### Multi-tenancy
 
 * Let your entities implement `IMultiTenant` if your module can be designed to support multi-tenancy.
-* Make sure the module is hidden from tenant users on the menu when it is host only.
+* Make sure permissions are host-side only if they should be hidden from tenant users and vice versa.
 
 ### Menu Items
 
@@ -56,7 +56,7 @@ There are two ways to get user data (such as UserName and PhoneNumber):
 
     * Use `IExternalUserLookupServiceProvider` instead of `IIdentityUserRepository` or `IIdentityUserAppService` in all your code to get user's data.
 
-2. Create an extra user entity and synchronize data from IdentityUser.
+2. Create an local extra user entity (like `BlogUser`) and synchronize data from IdentityUser.
 
     * See ABP document: [Creating a New Entity with Its Own Database Table/Collection](https://docs.abp.io/en/abp/latest/Customizing-Application-Modules-Extending-Entities#creating-a-new-entity-with-its-own-database-table-collection).
     * Use `IDistributedEventHandler` instead of `ILocalEventHandler` to synchronize user data.
@@ -76,13 +76,16 @@ Refer to the [common.props](https://github.com/EasyAbp/PrivateMessaging/blob/mas
 
 The ABP auto API controllers is not friendly to tiered solutions, so please use the [AbpHelper](https://github.com/EasyAbp/AbpHelper.GUI/blob/master/doc/AbpHelper-CLI/Generate-Controller-Code/Usage.md) to generate controllers manually.
 
-### Change Default Names
+### Change and Use Name Constants
 
 * Open `MyModuleNamePermissions.cs` and change **GroupName** to `EasyAbp.MyModuleName`.
 * Open `MyModuleNameSettings.cs` and change **GroupName** to `EasyAbp.MyModuleName`.
+* Open `MyModuleNameRemoteServiceConsts.cs` and change **RemoteServiceName** to `EasyAbpMyModuleName`.
+* Open `MyModuleNameRemoteServiceConsts.cs` and change **ModuleName** to `easyAbpMyModuleName`.
 * Open `MyModuleNameResource.cs` and replace `[LocalizationResourceName("MyModuleName")]` with `[LocalizationResourceName("EasyAbpMyModuleName")]`.
+* Open `MyModuleNameController.cs` and add **[Area(MyModuleNameServiceConsts.ModuleName)]** attribute.
 
-### Use Other Modules
+### Depend on Other Modules
 
 Todo.
 
@@ -93,21 +96,21 @@ Todo.
 ### common.props
 
 Follow the steps below:
-1. Copy the [common.props](https://github.com/EasyAbp/PrivateMessaging/blob/master/common.props) demo to your module.
+1. Copy the [common.props](https://github.com/EasyAbp/FileManagement/blob/master/common.props) demo to your module.
 1. Edit `Version`, `Description`, `PackageTags` and `PackageLicenseExpression`. (Don't follow the ABP framework's version.)
 
 ### README.md
 
-Refer to the [README.md](https://github.com/EasyAbp/SharedResources/blob/master/README.md) demo. You can customize the structure, but in fact similar formats are more readable.
+Refer to the [README.md](https://github.com/EasyAbp/FileManagement/blob/master/README.md) demo. You can customize the structure, but in fact similar formats are more readable.
 
 ### Packaging and Publishing
 
-Refer to the [GitHub Action demo](https://github.com/EasyAbp/PrivateMessaging/tree/master/.github/workflows/publish.yml), configure your project publication jobs. The NuGet packages will be automatic built and published after you commit code to the **master** branch with a new module version.
+Refer to the [GitHub Action demo](https://github.com/EasyAbp/FileManagement/tree/master/.github/workflows/publish.yml), configure your project publication jobs. The NuGet packages will be automatic built and published after you commit code to the **master** branch with a new module version.
 
 ### Continuous Updating
 
-* EasyAbp modules always follow the latest version of ABP vNext framework, so when a new version ABP released, you should upgrade your modules as soon as possible.
-* Write down the roadmap in README.md with reference to this [demo](https://github.com/EasyAbp/SharedResources/blob/master/README.md#roadmap) and implement them when you have time and inspiration.
+* EasyAbp modules always follow the latest version of ABP framework, so when a new version ABP released, you should upgrade your modules as soon as possible.
+* Write down the roadmap in README.md with reference to this [demo](https://github.com/EasyAbp/FileManagement/blob/master/docs/README.md#road-map) and implement them when you have time and inspiration.
 * Create a new GitHub release and announce all the **breaking changes** before publish new version pacakges to NuGet.
 
 ## Contribute to EasyAbp
