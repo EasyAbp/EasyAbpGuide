@@ -61,6 +61,10 @@ There are two ways to get user data (such as UserName and PhoneNumber):
     * See ABP document: [Creating a New Entity with Its Own Database Table/Collection](https://docs.abp.io/en/abp/latest/Customizing-Application-Modules-Extending-Entities#creating-a-new-entity-with-its-own-database-table-collection).
     * Use `IDistributedEventHandler` instead of `ILocalEventHandler` to synchronize user data.
 
+### Inherits ExtensibleObject
+
+Classes with ExtraProperties should inherit `ExtensibleObject`. Otherwise, you should add `[Serializable]` attribute to the class and add `[JsonInclude]` to the ExtraProperties property.
+
 ### Using IClock
 
 Use `IClock.Now` instead of `DateTime.Now` or `DateTime.UtcNow` in all your code to get current date time.
