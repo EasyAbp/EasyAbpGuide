@@ -63,7 +63,12 @@ There are two ways to get user data (such as UserName and PhoneNumber):
 
 ### Inherits ExtensibleObject
 
-Classes with ExtraProperties should inherit `ExtensibleObject`. Otherwise, you should add `[Serializable]` attribute to the class and add `[JsonInclude]` to the ExtraProperties property.
+Classes with `IHasExtraProperties` should inherit `ExtensibleObject`.
+
+Otherwise, you should make sure:
+   1. The class has `[Serializable]` attribute.
+   2. The ExtraProperties property has `[JsonInclude]` attribute.
+   3. The ExtraProperties property has a protected setter.
 
 ### Using IClock
 
