@@ -52,6 +52,13 @@ Refer to the [MenuContributor demo](https://github.com/EasyAbp/GiftCardManagemen
 
 Always retain a protected or public parameterless constructor, since serializers need it.
 
+```c#
+public class Book
+{
+    protected Book() { }
+}
+```
+
 ### User Data
 
 There are two ways to get user data (such as UserName and PhoneNumber):
