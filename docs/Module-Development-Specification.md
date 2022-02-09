@@ -48,6 +48,17 @@ Refer to the [MenuContributor demo](https://github.com/EasyAbp/GiftCardManagemen
 * The name of menu item should have a `CompanyName+ModuleName` prefix, for example: `EasyAbpGiftCardManagementGiftCard` is the `GiftCard` using the `EasyAbpGiftCardManagement` prefix.
 * Create a `CompanyName+ModuleName` menu item as the root of the module and put other menu items into it, hide it if there is nosub menu item inside.
 
+### Retain a Parameterless Constructor
+
+Always retain a protected or public parameterless constructor, since serializers need it.
+
+```c#
+public class Book
+{
+    protected Book() { }
+}
+```
+
 ### User Data
 
 There are two ways to get user data (such as UserName and PhoneNumber):
@@ -60,6 +71,15 @@ There are two ways to get user data (such as UserName and PhoneNumber):
 
     * See ABP document: [Creating a New Entity with Its Own Database Table/Collection](https://docs.abp.io/en/abp/latest/Customizing-Application-Modules-Extending-Entities#creating-a-new-entity-with-its-own-database-table-collection).
     * Use `IDistributedEventHandler` instead of `ILocalEventHandler` to synchronize user data.
+
+### Inherits ExtensibleObject
+
+Classes with `IHasExtraProperties` should inherit `ExtensibleObject`.
+
+Otherwise, you should make sure:
+   1. The class has `[Serializable]` attribute.
+   2. The ExtraProperties property has `[JsonInclude]` attribute.
+   3. The ExtraProperties property has a protected setter.
 
 ### Using IClock
 
