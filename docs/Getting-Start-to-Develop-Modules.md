@@ -56,7 +56,7 @@ Tip: Skip this step if you do not need Web project.
 
 4. Open `MyModuleNameDbProperties.cs` and change **DbTablePrefix** and **ConnectionStringName** to `EasyAbpMyModuleName`.
 
-5. Open `MyModuleNameRemoteServiceConsts.cs` and change **RemoteServiceName** to `MyModuleNameRemoteServiceConsts.RemoteServiceName`.
+5. Open `MyModuleNameRemoteServiceConsts.cs`, change **RemoteServiceName** to `EasyAbpMyModuleName` and change **ModuleName** to `easyAbpMyModuleName`.
 
 6. Open `MyModuleNameResource.cs` and replace `[LocalizationResourceName("MyModuleName")]` with `[LocalizationResourceName("EasyAbpMyModuleName")]`.
 
