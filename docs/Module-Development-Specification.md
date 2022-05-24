@@ -23,6 +23,11 @@ Example of module solution name:
 * Framework module: `EasyAbp.Abp.Todo` (including the prefix `Abp.`).
 > For framework modules, the better name of `XxxxxxModule` class for framework module is `AbpXxxxxxModule`.
 
+### Domain Services
+
+* Add a `[UnitOfWork]` attribute to the method that uses repositories.
+* Don't use any write-operation method of repositories. That means you will never add a `[UnitOfWork(IsTransactional = true)]` attribute.
+
 ### Solution Structure
 
 Read the document [Getting Start to Develop Modules](https://github.com/EasyAbp/EasyAbpGuide/blob/master/docs/Getting-Start-to-Develop-Modules.md) and follow it to adjust your module solution from the startup template.
