@@ -26,7 +26,7 @@ Example of module solution name:
 ### Domain Services
 
 * Add a `[UnitOfWork]` attribute to the method that uses repositories.
-* Don't use any write-operation method of repositories. That means you will never add a `[UnitOfWork(IsTransactional = true)]` attribute.
+* Don't use any write-operation method of repositories. That also means you will never add a `[UnitOfWork(IsTransactional = true)]` attribute.
 
 ### Solution Structure
 
