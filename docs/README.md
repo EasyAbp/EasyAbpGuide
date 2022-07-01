@@ -53,10 +53,6 @@ An abp application module that provides basic features to build a warehouse mana
 
 An abp application module that allows users to share resources with each other.
 
-#### [BookingService](https://github.com/EasyAbp/BookingService) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
-
-An ABP application module that allows users to book time for people or assets.
-
 #### [GiftCardManagement](https://github.com/EasyAbp/GiftCardManagement) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FGiftCardManagement%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.GiftCardManagement.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.GiftCardManagement.Domain.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.GiftCardManagement.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.GiftCardManagement.Domain.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/GiftCardManagement?style=social)](https://www.github.com/EasyAbp/GiftCardManagement)
 
 An abp application module where you can create gift cards and your app user can use them to exchange something.
