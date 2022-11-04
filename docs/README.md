@@ -1,6 +1,6 @@
 # EasyAbp
-[![Discord online](https://badgen.net/discord/online-members/S6QaezrCRq?label=Discord)](https://discord.gg/S6QaezrCRq)
-
+[![Discord online](https://badgen.net/discord/online-members/xyg8TrRa27?label=Discord)](https://discord.gg/S6QaezrCRq)
+https://badgen.net/discord/online-members/8Jzqu3T
 An open-source organization that enhances your ABP project development efficiency.
 
 ## ABP Framework
