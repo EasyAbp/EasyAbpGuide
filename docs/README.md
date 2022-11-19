@@ -206,13 +206,7 @@ Abp 微信 SDK 模块，包含对微信小程序、公众号、企业微信、�
 
 ### UI Theme Modules
 
-#### [MVC UI] [LYear](https://github.com/EasyAbp/Abp.AspNetCore.Mvc.UI.Theme.LYear) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.AspNetCore.Mvc.UI.Theme.LYear%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.AspNetCore.Mvc.UI.Theme.LYear.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.AspNetCore.Mvc.UI.Theme.LYear) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.AspNetCore.Mvc.UI.Theme.LYear.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.AspNetCore.Mvc.UI.Theme.LYear) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.AspNetCore.Mvc.UI.Theme.LYear?style=social)](https://www.github.com/EasyAbp/Abp.AspNetCore.Mvc.UI.Theme.LYear)
-
-A simple ABP MVC UI theme.
-
-#### [MVC UI] [Easy](https://github.com/EasyAbp/Abp.AspNetCore.Mvc.UI.Theme.Easy) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
-
-EasyAbp's first Abp MVC UI theme module.
+Empty.
 
 ## Applications
 
