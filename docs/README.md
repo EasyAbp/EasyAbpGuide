@@ -73,13 +73,13 @@ An abp application module that provides general user review service. For example
 
 An abp application module that allows users to send private messages to each other.
 
-#### [Elsa](https://github.com/EasyAbp/Elsa) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FElsa%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Elsa.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Elsa.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Elsa.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Elsa.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Elsa?style=social)](https://www.github.com/EasyAbp/Elsa)
-
-An Abp module integrates Elsa workflows and provides some preset Elsa activities for the ABP framework.
-
 #### [InstantMessaging](https://github.com/EasyAbp/InstantMessaging) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
 
 An abp application module that allows users to chat with each other instantly.
+
+#### [Elsa](https://github.com/EasyAbp/Elsa) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FElsa%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Elsa.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Elsa.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Elsa.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Elsa.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Elsa?style=social)](https://www.github.com/EasyAbp/Elsa)
+
+An Abp module integrates Elsa workflows and provides some preset Elsa activities for the ABP framework.
 
 #### [GoalManagement](https://github.com/EasyAbp/GoalManagement) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
 
