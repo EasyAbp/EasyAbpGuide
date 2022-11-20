@@ -85,10 +85,6 @@ An Abp module integrates Elsa workflows and provides some preset Elsa activities
 
 An abp application module that allows setting goals and rewards users who achieve the goals.
 
-#### [SeedingTool](https://github.com/EasyAbp/SeedingTool) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
-
-An abp application module to help host/tenants re seed the initial data with background job in launched applications.
-
 #### [CacheManagement](https://github.com/EasyAbp/CacheManagement) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FCacheManagement%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.CacheManagement.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.CacheManagement.Domain.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.CacheManagement.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.CacheManagement.Domain.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/CacheManagement?style=social)](https://www.github.com/EasyAbp/CacheManagement)
 
 An abp application module helps administrators to manage the app cache data.
