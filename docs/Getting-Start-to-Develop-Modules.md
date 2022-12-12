@@ -64,7 +64,7 @@ Tip: Skip this step if you do not need Web project.
 
 ## Step 5: Other adjustments
 
-1. Modify the **common.prop** file according to: https://github.com/EasyAbp/PrivateMessaging/blob/master/common.props.
+1. Modify the **common.props** file according to: https://github.com/EasyAbp/PrivateMessaging/blob/master/common.props.
 
 2. Unified ABP version number.
   1. Put ABP version number into the **Directory.Build.props** file (see [demo](https://github.com/EasyAbp/PrivateMessaging/blob/master/Directory.Build.props)).
