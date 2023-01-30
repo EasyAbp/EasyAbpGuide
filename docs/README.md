@@ -104,7 +104,7 @@ An abp application module to help you query and manage your application logs.
 
 ### Framework Modules
 
-#### [Abp.LoginUi](https://github.com/EasyAbp/Abp.LoginUi) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.LoginUi%2Fmain%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.LoginUi.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.LoginUi.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.LoginUi.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.LoginUi.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.LoginUi?style=social)](https://www.github.com/EasyAbp/Abp.LoginUi)
+#### [Abp.LoginUi](https://github.com/EasyAbp/Abp.LoginUi) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.LoginUi%2Fmain%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.LoginUi.Web.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.LoginUi.Web) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.LoginUi.Web.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.LoginUi.Web) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.LoginUi?style=social)](https://www.github.com/EasyAbp/Abp.LoginUi)
 
 An ABP module that provides enhanced login pages.
 
