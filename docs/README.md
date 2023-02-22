@@ -2,7 +2,7 @@
 
 [![Discord online](https://badgen.net/discord/online-members/xyg8TrRa27?label=Discord)](https://discord.gg/xyg8TrRa27)
 
-An open-source organization that enhances your ABP project development efficiency.
+An open-source organization that provides modules and tools to improve the efficiency of your ABP project development.
 
 ## ABP Framework
 
