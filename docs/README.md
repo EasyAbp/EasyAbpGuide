@@ -144,10 +144,6 @@ Abp Elasticsearch module.
 
 An ABP module used to manage ABP settings.
 
-#### [Abp.PhoneNumberLogin](https://github.com/EasyAbp/Abp.PhoneNumberLogin) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.PhoneNumberLogin%2Fmain%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.PhoneNumberLogin.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.PhoneNumberLogin.Domain.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.PhoneNumberLogin.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.PhoneNumberLogin.Domain.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.PhoneNumberLogin?style=social)](https://www.github.com/EasyAbp/Abp.PhoneNumberLogin)
-
-An abp module to avoid duplicate user phone numbers being confirmed and providing phone number confirmation and phone number login features and more.
-
 #### [Abp.EventBus.Boxes.Dtm](https://github.com/EasyAbp/Abp.EventBus.Boxes.Dtm) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.EventBus.Boxes.Dtm%2Fmain%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.EventBus.Boxes.Dtm.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.EventBus.Boxes.Dtm) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.EventBus.Boxes.Dtm.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.EventBus.Boxes.Dtm) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.EventBus.Boxes.Dtm?style=social)](https://www.github.com/EasyAbp/Abp.EventBus.Boxes.Dtm)
 
 The DTM implementation module of ABP distributed event boxes.
