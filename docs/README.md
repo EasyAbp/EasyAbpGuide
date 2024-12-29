@@ -66,10 +66,6 @@ An abp application module where you can create gift cards and your app user can 
 
 An abp.io application module that allows users to upload and maintain files.
 
-#### [ReviewManagement](https://github.com/EasyAbp/ReviewManagement) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FReviewManagement%2Fmain%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.ReviewManagement.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.ReviewManagement.Domain.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.ReviewManagement.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.ReviewManagement.Domain.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/ReviewManagement?style=social)](https://www.github.com/EasyAbp/ReviewManagement)
-
-An abp application module that provides general user review service. For example, a user can review a product he has bought with text, pictures and star-rating.
-
 #### [PrivateMessaging](https://github.com/EasyAbp/PrivateMessaging) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FPrivateMessaging%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.PrivateMessaging.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.PrivateMessaging.Domain.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.PrivateMessaging.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.PrivateMessaging.Domain.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/PrivateMessaging?style=social)](https://www.github.com/EasyAbp/PrivateMessaging)
 
 An abp application module that allows users to send private messages to each other.
@@ -98,10 +94,6 @@ An abp application module to help you query and manage your application logs.
 
 基于EasyAbp.Abp.WeChat模块实现微信登录、微信用户信息存储、微信服务器管理等高级功能的Abp应用模块组
 
-#### [UniappManagement](https://github.com/EasyAbp/UniappManagement) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FUniappManagement%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.UniappManagement.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.UniappManagement.Domain.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.UniappManagement.Domain.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.UniappManagement.Domain.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/UniappManagement?style=social)](https://www.github.com/EasyAbp/UniappManagement)
-
-实现uni-app的应用版本管理、整包更新、热更新、差量热更新等功能的Abp应用模块
-
 ### Framework Modules
 
 #### [Abp.LoginUi](https://github.com/EasyAbp/Abp.LoginUi) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.LoginUi%2Fmain%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.LoginUi.Web.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.LoginUi.Web) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.LoginUi.Web.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.LoginUi.Web) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.LoginUi?style=social)](https://www.github.com/EasyAbp/Abp.LoginUi)
@@ -111,14 +103,6 @@ An ABP module that provides enhanced login pages.
 #### [Abp.GraphQL](https://github.com/EasyAbp/Abp.GraphQL) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.GraphQL%2Fmain%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.GraphQL.Provider.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.GraphQL.Provider.Shared) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.GraphQL.Provider.Shared.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.GraphQL.Provider.Shared) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.GraphQL?style=social)](https://www.github.com/EasyAbp/Abp.GraphQL)
 
 An ABP module that allows using application services by GraphQL. It also accepted custom schemes and types you defined.
-
-#### [Abp.RelatedDtoLoader](https://github.com/EasyAbp/Abp.RelatedDtoLoader) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.RelatedDtoLoader%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.RelatedDtoLoader.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.RelatedDtoLoader) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.RelatedDtoLoader.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.RelatedDtoLoader) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.RelatedDtoLoader?style=social)](https://www.github.com/EasyAbp/Abp.RelatedDtoLoader)
-
-An Abp module that help you automatically load related DTO (like ProductDto in OrderDto) under DDD.
-
-#### [Abp.AspNetCoreRateLimit](https://github.com/EasyAbp/Abp.AspNetCoreRateLimit) [![ABP version](https://img.shields.io/badge/dynamic/xml?style=flat-square&color=yellow&label=abp&query=%2F%2FProject%2FPropertyGroup%2FAbpVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2FEasyAbp%2FAbp.AspNetCoreRateLimit%2Fmaster%2FDirectory.Build.props)](https://abp.io) [![NuGet](https://img.shields.io/nuget/v/EasyAbp.Abp.AspNetCoreRateLimit.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.AspNetCoreRateLimit) [![NuGet Download](https://img.shields.io/nuget/dt/EasyAbp.Abp.AspNetCoreRateLimit.svg?style=flat-square)](https://www.nuget.org/packages/EasyAbp.Abp.AspNetCoreRateLimit) [![GitHub stars](https://img.shields.io/github/stars/EasyAbp/Abp.AspNetCoreRateLimit?style=social)](https://www.github.com/EasyAbp/Abp.AspNetCoreRateLimit)
-
-An Abp module helps you control how often your service is used.
 
 #### [Abp.Cqrs](https://github.com/EasyAbp/Abp.Cqrs) ![Backlog](https://img.shields.io/badge/-Backlog-lightgrey?style=flat-square)
 
